@@ -19,13 +19,7 @@
                   "kind": "shls_link",
                   "title": "Manager\u2019s Guide for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/4dqchbdz1quzugps1yvdadjj0e2zx5oi"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Manager\u2019s Guide for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/rg12fyckxuzksrx39in2jd1bapavx63y"
+                  "path": "chefdata/downloaded/IRC_SHLS_Managers_Guide_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -34,54 +28,220 @@
               "title": "Extra resources",
               "children": [
                 {
-                  "kind": "shls_link",
-                  "title": "Annexes for Step 1: Context Analysis and Needs Assessment",
-                  "url": "https://rescue.box.com/s/j0jqwlg60bgn4d54abq0t5rxyfj1ur4e"
+                  "title": "Step 1 - Context analysis and needs assessment",
+                  "children": [
+                    {
+                      "title": "Annex 1.1 SHLS Needs Assessment Matrix.docx",
+                      "path": "chefdata/downloaded/Step 1 - Context analysis and needs assessment/Annex 1.1 SHLS Needs Assessment Matrix.docx"
+                    },
+                    {
+                      "title": "Annex 1.2 SHLS Key Informant Interview.docx",
+                      "path": "chefdata/downloaded/Step 1 - Context analysis and needs assessment/Annex 1.2 SHLS Key Informant Interview.docx"
+                    },
+                    {
+                      "title": "Annex 1.3 Child Protection Rapid Assessment Toolkit.pdf",
+                      "path": "chefdata/downloaded/Step 1 - Context analysis and needs assessment/Annex 1.3 Child Protection Rapid Assessment Toolkit.pdf"
+                    },
+                    {
+                      "title": "Annex 1.4 Joint Education Needs Assessment Toolkit.pdf",
+                      "path": "chefdata/downloaded/Step 1 - Context analysis and needs assessment/Annex 1.4 Joint Education Needs Assessment Toolkit.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 },
                 {
-                  "kind": "shls_link",
-                  "title": "Annexes for Step 2: Developing a Work Plan",
-                  "url": "https://rescue.box.com/s/vfu1ms8uh8xciqtpmi3dq7qai44a5aec"
+                  "title": "Step 2 - Developing a work plan",
+                  "children": [
+                    {
+                      "title": "Annex 2.1 SHLS Work Plan.xlsx",
+                      "path": "chefdata/downloaded/Step 2 - Developing a work plan/Annex 2.1 SHLS Work Plan.xlsx"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 },
                 {
-                  "kind": "shls_link",
-                  "title": "Annexes for Step 3: Developing a Budget and Procurement Plan",
-                  "url": "https://rescue.box.com/s/4cmqwvy92rxl1f0mxjinmhms2ri4z9m9"
+                  "title": "Step 3 - Developing a budget and procurement plan",
+                  "children": [
+                    {
+                      "title": "Annex 3.1 SHLS Budget template.xlsx",
+                      "path": "chefdata/downloaded/Step 3 - Developing a budget and procurement plan/Annex 3.1 SHLS Budget template.xlsx"
+                    },
+                    {
+                      "title": "Annex 3.2 SHLS Procurement plan template.xlsx",
+                      "path": "chefdata/downloaded/Step 3 - Developing a budget and procurement plan/Annex 3.2 SHLS Procurement plan template.xlsx"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 },
                 {
-                  "kind": "shls_link",
-                  "title": "Annexes for Step 4: Location and Set-up",
-                  "url": "https://rescue.box.com/s/9il5sxrosc9ngdmbi3kbvnf97t1xpy8e"
+                  "title": "Step 4 - Location and set-up",
+                  "children": [
+                    {
+                      "title": "Annex 4.1 SHLS Structure and Safety Checklist.docx",
+                      "path": "chefdata/downloaded/Step 4 - Location and set-up/Annex 4.1 SHLS Structure and Safety Checklist.docx"
+                    },
+                    {
+                      "title": "Annex 4.2 HI Disability Checklist for Emergency Response.pdf",
+                      "path": "chefdata/downloaded/Step 4 - Location and set-up/Annex 4.2 HI Disability Checklist for Emergency Response.pdf"
+                    },
+                    {
+                      "title": "Annex 4.4 Safety Signs and Protocols.docx",
+                      "path": "chefdata/downloaded/Step 4 - Location and set-up/Annex 4.4 Safety Signs and Protocols.docx"
+                    },
+                    {
+                      "title": "Annex 4.5 SHLS Emergency Procedures.docx",
+                      "path": "chefdata/downloaded/Step 4 - Location and set-up/Annex 4.5 SHLS Emergency Procedures.docx"
+                    },
+                    {
+                      "title": "Annex 4.6 WaterAid Menstrual Hygiene Matters_Module1.pdf",
+                      "path": "chefdata/downloaded/Step 4 - Location and set-up/Annex 4.6 WaterAid Menstrual Hygiene Matters_Module1.pdf"
+                    },
+                    {
+                      "title": "Annex 4.7 UNICEF Water, Sanitation and Hygiene in schools.pdf",
+                      "path": "chefdata/downloaded/Step 4 - Location and set-up/Annex 4.7 UNICEF Water, Sanitation and Hygiene in schools.pdf"
+                    },
+                    {
+                      "title": "Annex 4.8 Suggested SHLS Materials.docx",
+                      "path": "chefdata/downloaded/Step 4 - Location and set-up/Annex 4.8 Suggested SHLS Materials.docx"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 },
                 {
-                  "kind": "shls_link",
-                  "title": "Annexes for Step 5: Human Resources and Capacity Building",
-                  "url": "https://rescue.box.com/s/3yk066zye7eo94mcte4tpse1rf4ioxt7"
+                  "title": "Step 5 - Human resources",
+                  "children": [
+                    {
+                      "title": "Annex 5.10 Facilitator Training Record.xlsx",
+                      "path": "chefdata/downloaded/Step 5 - Human resources/Annex 5.10 Facilitator Training Record.xlsx"
+                    },
+                    {
+                      "title": "Annex 5.11 Facilitator Well-being Survey.xlsx",
+                      "path": "chefdata/downloaded/Step 5 - Human resources/Annex 5.11 Facilitator Well-being Survey.xlsx"
+                    },
+                    {
+                      "title": "Annex 5.2 Selection criteria for SHLS staff.docx",
+                      "path": "chefdata/downloaded/Step 5 - Human resources/Annex 5.2 Selection criteria for SHLS staff.docx"
+                    },
+                    {
+                      "title": "Annex 5.4 Observation Guide for SEL facilitator.docx",
+                      "path": "chefdata/downloaded/Step 5 - Human resources/Annex 5.4 Observation Guide for SEL facilitator.docx"
+                    },
+                    {
+                      "title": "Annex 5.5 SHLS Human Resources Checklist.docx",
+                      "path": "chefdata/downloaded/Step 5 - Human resources/Annex 5.5 SHLS Human Resources Checklist.docx"
+                    },
+                    {
+                      "title": "Annex 5.6 - SHLS Code of Conduct.docx",
+                      "path": "chefdata/downloaded/Step 5 - Human resources/Annex 5.6 - SHLS Code of Conduct.docx"
+                    },
+                    {
+                      "title": "Annex 5.7 SHLS Code of Conduct Follow-up Tool.xlsx",
+                      "path": "chefdata/downloaded/Step 5 - Human resources/Annex 5.7 SHLS Code of Conduct Follow-up Tool.xlsx"
+                    },
+                    {
+                      "title": "Annex 5.8 Terre Des Hommes Child Safeguarding Poster.pdf",
+                      "path": "chefdata/downloaded/Step 5 - Human resources/Annex 5.8 Terre Des Hommes Child Safeguarding Poster.pdf"
+                    },
+                    {
+                      "title": "Annex 5.9 Training Attendance Sheet.docx",
+                      "path": "chefdata/downloaded/Step 5 - Human resources/Annex 5.9 Training Attendance Sheet.docx"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 },
                 {
-                  "kind": "shls_link",
-                  "title": "Annexes for Step 7: Monitoring and Evaluation",
-                  "url": "https://rescue.box.com/s/dfu3pcvuv8tutq14g7k3h8tkthu5ycnu"
+                  "title": "Step 7 - Monitoring and evaluation",
+                  "children": [
+                    {
+                      "title": "Annex 7.1 M&E Vocabulary and References.docx",
+                      "path": "chefdata/downloaded/Step 7 - Monitoring and evaluation/Annex 7.1 M&E Vocabulary and References.docx"
+                    },
+                    {
+                      "title": "Annex 7.13 - SHLS Learning Review Template.docx",
+                      "path": "chefdata/downloaded/Step 7 - Monitoring and evaluation/Annex 7.13 - SHLS Learning Review Template.docx"
+                    },
+                    {
+                      "title": "Annex 7.2 SHLS Logframe.docx",
+                      "path": "chefdata/downloaded/Step 7 - Monitoring and evaluation/Annex 7.2 SHLS Logframe.docx"
+                    },
+                    {
+                      "title": "Annex 7.3 SHLS Monitoring & Tracking_Indicator Matrix.xlsx",
+                      "path": "chefdata/downloaded/Step 7 - Monitoring and evaluation/Annex 7.3 SHLS Monitoring & Tracking_Indicator Matrix.xlsx"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 },
                 {
-                  "kind": "shls_link",
-                  "title": "Annexes for Step 8: SHLS Committees",
-                  "url": "https://rescue.box.com/s/fxqw3kbl3762hqkagf0yyncf36au0uhr"
+                  "title": "Step 8 - SHLS committees",
+                  "children": [
+                    {
+                      "title": "Annex 8.1 Terms of Reference for Parents' Committees.docx",
+                      "path": "chefdata/downloaded/Step 8 - SHLS committees/Annex 8.1 Terms of Reference for Parents' Committees.docx"
+                    },
+                    {
+                      "title": "Annex 8.2 Terms of Reference for Children's Committees.docx",
+                      "path": "chefdata/downloaded/Step 8 - SHLS committees/Annex 8.2 Terms of Reference for Children's Committees.docx"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 },
                 {
-                  "kind": "shls_link",
-                  "title": "Annexes for Step 9: Feedback Mechanisms",
-                  "url": "https://rescue.box.com/s/asie3n5p3chsjh9qhfumdddosw4c5c4d"
+                  "title": "Step 9 - Feedback mechanisms",
+                  "children": [
+                    {
+                      "title": "Annex 9.1 Complaints Book.docx",
+                      "path": "chefdata/downloaded/Step 9 - Feedback mechanisms/Annex 9.1 Complaints Book.docx"
+                    },
+                    {
+                      "title": "Annex 9.4 Allegation Report and Tracking Form.docx",
+                      "path": "chefdata/downloaded/Step 9 - Feedback mechanisms/Annex 9.4 Allegation Report and Tracking Form.docx"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 },
                 {
-                  "kind": "shls_link",
-                  "title": "Annexes for Step 10: Developing SHLS Referral Pathways",
-                  "url": "https://rescue.box.com/s/tf2uyrotdlixq70tjqav37ag6un5tfbg"
+                  "title": "Step 10 - Developing SHLS referral pathways",
+                  "children": [
+                    {
+                      "title": "Annex 10.1 Child Protection Actor Mapping.xlsx",
+                      "path": "chefdata/downloaded/Step 10 - Developing SHLS referral pathways/Annex 10.1 Child Protection Actor Mapping.xlsx"
+                    },
+                    {
+                      "title": "Annex 10.2 SHLS Referral Tracking Log.xlsx",
+                      "path": "chefdata/downloaded/Step 10 - Developing SHLS referral pathways/Annex 10.2 SHLS Referral Tracking Log.xlsx"
+                    },
+                    {
+                      "title": "Annex 10.3 Child Referral Form.doc",
+                      "path": "chefdata/downloaded/Step 10 - Developing SHLS referral pathways/Annex 10.3 Child Referral Form.doc"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 },
                 {
-                  "kind": "shls_link",
-                  "title": "Annexes for Step 11: Starting SHLS Activities",
-                  "url": "https://rescue.box.com/s/no6canyki04roy8a12g921t0okycx0vf"
+                  "title": "Step 11 - Starting SHLS Activities",
+                  "children": [
+                    {
+                      "title": "Annex 11.1 Child Enrollment Form.docx",
+                      "path": "chefdata/downloaded/Step 11 - Starting SHLS Activities/Annex 11.1 Child Enrollment Form.docx"
+                    },
+                    {
+                      "title": "Annex 11.2 Caregiver Enrollment Form.docx",
+                      "path": "chefdata/downloaded/Step 11 - Starting SHLS Activities/Annex 11.2 Caregiver Enrollment Form.docx"
+                    },
+                    {
+                      "title": "Annex 11.3 SHLS Visitor Log.xlsx",
+                      "path": "chefdata/downloaded/Step 11 - Starting SHLS Activities/Annex 11.3 SHLS Visitor Log.xlsx"
+                    },
+                    {
+                      "title": "Annex 11.4 Universal Consent and Release for Use of an Image.pdf",
+                      "path": "chefdata/downloaded/Step 11 - Starting SHLS Activities/Annex 11.4 Universal Consent and Release for Use of an Image.pdf"
+                    },
+                    {
+                      "title": "Annex 11.5 Sample Community Attendance Record.xlsx",
+                      "path": "chefdata/downloaded/Step 11 - Starting SHLS Activities/Annex 11.5 Sample Community Attendance Record.xlsx"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 }
               ]
             }
@@ -101,13 +261,7 @@
                   "kind": "shls_link",
                   "title": "Foundational Training \u2013 Trainer\u2019s Manual for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/vslslweronz9b3d4shhkj0stkdryl31z"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Foundational Training \u2013 Trainer\u2019s Manual for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/llnt3xhojivmcwfiuzzzrit4ppwfyjup"
+                  "path": "chefdata/downloaded/IRC_SHLS_Foundational_Trainers_Manual_08.2016_WEB.pdf"
                 }
               ]
             }
@@ -127,13 +281,7 @@
                   "kind": "shls_link",
                   "title": "Foundational Training \u2013 Trainee\u2019s Handbook for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/kz8ky2gz1fzzqixziappztfol14jv8tu"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Foundational Training \u2013 Trainee\u2019s Handbook for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/3lfjmhj6zpvsuyygqhfe9ur5oogwcjhh"
+                  "path": "chefdata/downloaded/IRC_SHLS_Foundational_Trainees_Handbook_08.2016_WEB.pdf"
                 }
               ]
             }
@@ -159,13 +307,7 @@
                   "kind": "shls_link",
                   "title": "SEL Trainer\u2019s Manual for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/dopr52ty5w8n2g61u6ephklhod390789"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "SEL Trainer\u2019s Manual for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/dl1q3u4f68sevx0na3s918xr45x00npb"
+                  "path": "chefdata/downloaded/IRC_SHLS_SEL_Trainers_Manual_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -177,7 +319,7 @@
                   "kind": "shls_link",
                   "title": "SEL Trainer\u2019s Manual for web",
                   "language_name": "French",
-                  "url": "https://rescue.box.com/s/hm0pra2vf6bzmco0hfxgcblulcp22uos"
+                  "path": "chefdata/downloaded/SEL_Trainers_Manual_08.2016-fr-FR.pdf"
                 }
               ]
             }
@@ -197,13 +339,7 @@
                   "kind": "shls_link",
                   "title": "SEL Trainee\u2019s Handbook for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/imd3fuk6amndwhu2j5cu27pjyzm71qeo"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "SEL Trainee\u2019s Handbook for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/vp3fduqy9gfvrbgdecf808vgv775razh"
+                  "path": "chefdata/downloaded/IRC_SHLS_SEL_Trainees_Handbook_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -215,7 +351,7 @@
                   "kind": "shls_link",
                   "title": "SEL Trainee\u2019s Handbook for web",
                   "language_name": "Greek",
-                  "url": "https://rescue.box.com/s/867pv5ef9gw6hxov0sh31paqqochwzwc"
+                  "path": "chefdata/downloaded/IRC_SHLS_SEL_Trainees_Handbook_08.2016_DESKTOP_PRINT GR translation.pdf"
                 }
               ]
             }
@@ -235,13 +371,7 @@
                   "kind": "shls_link",
                   "title": "SEL Lesson Plan Bank for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/q7h7so4x4t45y4p7wt7a3cgr9mney1gg"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "SEL Lesson Plan Bank for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/8yhcd426j42gtgvmn3z5ko4583pefs6i"
+                  "path": "chefdata/downloaded/IRC_SHLS_SEL_Lesson_Plan_Bank_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -253,7 +383,7 @@
                   "kind": "shls_link",
                   "title": "SEL Lesson Plan Bank for web",
                   "language_name": "Arabic",
-                  "url": "https://rescue.box.com/s/s18wlo659olpx78hxublsodewe340ojb"
+                  "path": "chefdata/downloaded/SHLS SEL Lesson Bank_Arabic - Iraq-FINAL.pdf"
                 }
               ]
             },
@@ -265,7 +395,7 @@
                   "kind": "shls_link",
                   "title": "SEL Lesson Plan Bank for web",
                   "language_name": "Greek",
-                  "url": "https://rescue.box.com/s/m7rhtvhglqlq2f733u1x5akzoyh67h6a"
+                  "path": "chefdata/downloaded/IRC_SHLS_SEL_Lesson_Plan_Bank_08.2016_DESKTOP_PRINT.pdf"
                 }
               ]
             }
@@ -285,13 +415,7 @@
                   "kind": "shls_link",
                   "title": "SEL Games Bank for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/pikordkqxsg7nz9hno7d0af8xq2qjc1n"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "SEL Games Bank for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/fsenhzks9a617dajb2z0jdl94ir2yx68"
+                  "path": "chefdata/downloaded/IRC_SHLS_SEL_Games_Bank_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -303,7 +427,7 @@
                   "kind": "shls_link",
                   "title": "SEL Games Bank for web",
                   "language_name": "Arabic",
-                  "url": "https://rescue.box.com/s/7q7rt1i886y94j7qiiwq1eu51don22rc"
+                  "path": "chefdata/downloaded/SHLS SEL Games Bank- KRI_Arabic.pdf"
                 }
               ]
             },
@@ -315,7 +439,7 @@
                   "kind": "shls_link",
                   "title": "SEL Games Bank for web",
                   "language_name": "French",
-                  "url": "https://rescue.box.com/s/9bq5yo0hwz8p7uqluku7ca6bsdqdds6n"
+                  "path": "chefdata/downloaded/SEL_Games_Bank_08.2016-fr-FR.pdf"
                 }
               ]
             },
@@ -327,7 +451,7 @@
                   "kind": "shls_link",
                   "title": "SEL Games Bank for web",
                   "language_name": "Greek",
-                  "url": "https://rescue.box.com/s/sqmgf79g6pea9o5iox3pdwf2mewockvi"
+                  "path": "chefdata/downloaded/IRC_SHLS_SEL_Games_Bank_08.2016_DESKTOP_PRINT.pdf"
                 }
               ]
             }
@@ -353,13 +477,7 @@
                   "kind": "shls_link",
                   "title": "Math Trainer\u2019s Manual for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/0mfcpghfrtqoqv2kc8j7v11uh6a4fsbv"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Math Trainer\u2019s Manual for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/evh8vr928w0tyx9m3jj1niykloqgcygg"
+                  "path": "chefdata/downloaded/IRC_SHLS_Math_Trainers_Manual_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -371,13 +489,7 @@
                   "kind": "shls_link",
                   "title": "Math Trainer\u2019s Manual for web",
                   "language_name": "French",
-                  "url": "https://rescue.box.com/s/mzin3vl7nexiqy24c1hj7vekcels8unb"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Math Trainer\u2019s Manual for print",
-                  "language_name": "French",
-                  "url": "https://rescue.box.com/s/403g0gq2ch53gbxnj6xb2zcu5oniakqz"
+                  "path": "chefdata/downloaded/IRC SHLS_MATH_Manual_French_08.2016_WEB_low.pdf"
                 }
               ]
             },
@@ -389,7 +501,7 @@
                   "kind": "shls_link",
                   "title": "Math Trainer\u2019s Manual for web",
                   "language_name": "Arabic",
-                  "url": "https://rescue.box.com/s/ij5y5srmu7l3stdnlcjtl97fkvxiy4ru"
+                  "path": "chefdata/downloaded/SHLS Math Trainer's Manual _Iraq_Arabic.pdf"
                 }
               ]
             }
@@ -409,13 +521,7 @@
                   "kind": "shls_link",
                   "title": "Math Trainee\u2019s Handbook for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/t84r2dmm245m3sx6arxqmlme4i3tiuks"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Math Trainee\u2019s Handbook for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/ee8g78plaan57t3ku9bvqx52s01mytj9"
+                  "path": "chefdata/downloaded/IRC_SHLS_Math_Trainees_Handbook_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -427,13 +533,7 @@
                   "kind": "shls_link",
                   "title": "Math Trainee\u2019s Handbook for web",
                   "language_name": "French",
-                  "url": "https://rescue.box.com/s/hbleqj9votam5fcilqm4vvho0dihaals"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Math Trainee\u2019s Handbook for print",
-                  "language_name": "French",
-                  "url": "https://rescue.box.com/s/42wxldv1c5zlb0iisu6ggykj4h79h1nr"
+                  "path": "chefdata/downloaded/IRC_SHLS_MATH_Handbook_08.2016_French_WEB_low.pdf"
                 }
               ]
             },
@@ -445,7 +545,7 @@
                   "kind": "shls_link",
                   "title": "Math Trainee\u2019s Handbook for web",
                   "language_name": "Arabic",
-                  "url": "https://rescue.box.com/s/nttznkix4sm5qbwwfzu1u5b4ljx9ewra"
+                  "path": "chefdata/downloaded/SHLS Math Trainee Handbook - Iraq-Arabic.pdf"
                 }
               ]
             }
@@ -465,13 +565,7 @@
                   "kind": "shls_link",
                   "title": "Math Lesson Plan Bank for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/n3y9ofkeslvjhw3h5s8hwmb49bttnpss"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Math Lesson Plan Bank for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/de6qhng2cs31trh2es9y3qfs9mbi4sir"
+                  "path": "chefdata/downloaded/IRC_SHLS_Math_Lesson_Plan_Bank_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -483,7 +577,7 @@
                   "kind": "shls_link",
                   "title": "Math Lesson Plan Bank for web",
                   "language_name": "Arabic",
-                  "url": "https://rescue.box.com/s/3ufn2zlucvfv4f9gt6codgr6wvh6veaq"
+                  "path": "chefdata/downloaded/SHLS Math Lesson Bank - Iraq - Arabic.pdf"
                 }
               ]
             }
@@ -509,13 +603,7 @@
                   "kind": "shls_link",
                   "title": "Reading Trainer\u2019s Manual for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/wwfhzd35rtr29fwsx7jexqaojvrf27di"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Reading Trainer\u2019s Manual for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/17k5gr84xqnjqdt9fu7272zkq114waqc"
+                  "path": "chefdata/downloaded/IRC_SHLS_Reading_Trainers_Manual_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -527,13 +615,7 @@
                   "kind": "shls_link",
                   "title": "Reading Trainer\u2019s Manual for web",
                   "language_name": "French",
-                  "url": "https://rescue.box.com/s/wwrylcsalmlrnpq6m0vsfpaaig1huors"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Reading Trainer\u2019s Manual for print",
-                  "language_name": "French",
-                  "url": "https://rescue.box.com/s/cfk65ianjb1dxjnz5nu44y1mkjdofaoz"
+                  "path": "chefdata/downloaded/IRC_SHLS_Reading_Manual_French_08.2016_WEB_low.pdf"
                 }
               ]
             },
@@ -545,7 +627,7 @@
                   "kind": "shls_link",
                   "title": "Reading Trainer\u2019s Manual for web",
                   "language_name": "Arabic",
-                  "url": "https://rescue.box.com/s/7o9994smyy6u3bbeqd6hnh7lpdxvw9qp"
+                  "path": "chefdata/downloaded/SHLS Reading_Arabic-Trainer's Manual-Finalized.pdf"
                 }
               ]
             }
@@ -565,13 +647,7 @@
                   "kind": "shls_link",
                   "title": "Reading Trainee\u2019s Handbook for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/lhn2h82t160egas7ye4j1bk39qbv1a9j"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Reading Trainee\u2019s Handbook for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/tceun37kr01yfrnp8pmpuwoqwa63x3j2"
+                  "path": "chefdata/downloaded/IRC_SHLS_Reading_Trainees_Handbook_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -583,13 +659,7 @@
                   "kind": "shls_link",
                   "title": "Reading Trainee\u2019s Handbook for web",
                   "language_name": "French",
-                  "url": "https://rescue.box.com/s/9jquqfsbcryqkljcrgvyx2r6w3927vqq"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Reading Trainee\u2019s Handbook for print",
-                  "language_name": "French",
-                  "url": "https://rescue.box.com/s/ffrqbcmsd1itc2ko6h5trgytm3azu847"
+                  "path": "chefdata/downloaded/IRC_SHLS_Reading_Handbook_French_08.2016_WEB_low.pdf"
                 }
               ]
             },
@@ -601,7 +671,7 @@
                   "kind": "shls_link",
                   "title": "Reading Trainee\u2019s Handbook for web",
                   "language_name": "Arabic",
-                  "url": "https://rescue.box.com/s/rmt2ijgwr29oh7apvqjg3g1llamdy24z"
+                  "path": "chefdata/downloaded/SHLS Reading_Arabic-Trainee's Handbook-Finalized.pdf"
                 }
               ]
             }
@@ -621,13 +691,7 @@
                   "kind": "shls_link",
                   "title": "Reading Lesson Plan Bank for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/m9mmnruh3hfgd2eaonr6act3hmegfmj3"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Reading Lesson Plan Bank for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/2qvjf22yalbk865461c8z5z4jlesrty3"
+                  "path": "chefdata/downloaded/IRC_SHLS_Reading_Lesson_Plan_Bank_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -639,7 +703,7 @@
                   "kind": "shls_link",
                   "title": "Reading Lesson Plan Bank for web",
                   "language_name": "Arabic",
-                  "url": "https://rescue.box.com/s/0icjv3dug4a6cf5euhd2jvlgxk28dycy"
+                  "path": "chefdata/downloaded/SHLS Reading_Arabic-Lesson Plan Bank-Finalized.pdf"
                 }
               ]
             }
@@ -665,13 +729,7 @@
                   "kind": "shls_link",
                   "title": "Parenting Skills Trainer\u2019s Manual for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/f0djf7fa3yzbtn7vqt3ouv2mn20okt8l"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Parenting Skills Trainer\u2019s Manual for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/t17uqwunelwtzqqfyg9gndbt5s55hn29"
+                  "path": "chefdata/downloaded/IRC_SHLS_Parenting_Trainers_Manual_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -683,7 +741,7 @@
                   "kind": "shls_link",
                   "title": "Parenting Skills Trainer\u2019s Manual for web",
                   "language_name": "French",
-                  "url": "https://rescue.box.com/s/e7xghm0v4yxao0uy9al6wabcx8hcqj6v"
+                  "path": "chefdata/downloaded/IRCJ4060_Parenting_Trainers_Manual_082016-fr-FR.pdf"
                 }
               ]
             },
@@ -694,37 +752,27 @@
                 {
                   "kind": "shls_link",
                   "title": "DAY 1",
-                  "url": "https://rescue.box.com/s/4ybqdelp32xhwiixaczfoqizcs2bf9id"
+                  "path": "chefdata/downloaded/1-SHLS PS Training Day 1.ppt.pptx"
                 },
                 {
                   "kind": "shls_link",
                   "title": "DAY 2",
-                  "url": "https://rescue.box.com/s/4etr52iax2yvduwnari9zb91gsu5hzk1"
+                  "path": "chefdata/downloaded/2-SHLS PS Training Day 2.ppt.pptx"
                 },
                 {
                   "kind": "shls_link",
                   "title": "DAY 3",
-                  "url": "https://rescue.box.com/s/0w4huh5gpqnkaw85uca8817yv7r3ho86"
+                  "path": "chefdata/downloaded/3-SHLS PS Training Day 3. ppt.pptx"
                 },
                 {
                   "kind": "shls_link",
                   "title": "DAY 4",
-                  "url": "https://rescue.box.com/s/z3zz3ys4pucec12ht510g1s3jbf3cxzp"
+                  "path": "chefdata/downloaded/4-SHLS PS Training Day 4. ppt.pptx"
                 },
                 {
                   "kind": "shls_link",
                   "title": "DAY 5",
-                  "url": "https://rescue.box.com/s/bgl7jgo9nwx8zm36kpg98rpb9nt55a7o"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Parenting Skills (Families Make the Difference) Instructional Videos_ENGLISH",
-                  "url": "https://vimeo.com/channels/fmdvids"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Parenting Skills (Families Make the Difference) Instructional Videos_ARABIC",
-                  "url": "https://vimeo.com/channels/fmdvidsarabic"
+                  "path": "chefdata/downloaded/5-SHLS PS Training Day 5.ppt.pptx"
                 }
               ]
             }
@@ -744,13 +792,7 @@
                   "kind": "shls_link",
                   "title": "Curriculum for Caregivers of Children for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/wsps5okd790vr8mnprdq1nw12hbxscri"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Curriculum for Caregivers of Children for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/wrbeaw9beh5tj7zg2t556vxlsl4r3i4d"
+                  "path": "chefdata/downloaded/IRC_SHLS_Parenting_Curriculum_for_Children_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -759,9 +801,18 @@
               "title": "Extra resources",
               "children": [
                 {
-                  "kind": "shls_link",
-                  "title": "Condensed Version",
-                  "url": "https://rescue.box.com/s/j1cua6q1d6b0ibppirh6qrkx1c4jdlmu"
+                  "title": "Condensed Version_Children",
+                  "children": [
+                    {
+                      "title": "Customized Parenting Skills Curriculum 6-11 IRC Greece IRC - FINAL VERSION.pdf",
+                      "path": "chefdata/downloaded/Condensed Version_Children/Customized Parenting Skills Curriculum 6-11 IRC Greece IRC - FINAL VERSION.pdf"
+                    },
+                    {
+                      "title": "Resources & Handouts for Parenting Curriculum Children 6-11 IRC Greece.pdf",
+                      "path": "chefdata/downloaded/Condensed Version_Children/Resources & Handouts for Parenting Curriculum Children 6-11 IRC Greece.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 }
               ]
             }
@@ -781,13 +832,7 @@
                   "kind": "shls_link",
                   "title": "Curriculum for Caregivers of Adolescents for web",
                   "language_name": "English",
-                  "url": "https://rescue.box.com/s/4ose3c80ne8g8xr12v9hdfswdb6v7lep"
-                },
-                {
-                  "kind": "shls_link",
-                  "title": "Curriculum for Caregivers of Adolescents for print",
-                  "language_name": "English",
-                  "url": "https://rescue.box.com/s/srklsxbto4xfjvnjo39kmmtsrw1oj98q"
+                  "path": "chefdata/downloaded/IRC_SHLS_Parenting_Curriculum_for_Adolescents_08.2016_WEB.pdf"
                 }
               ]
             },
@@ -799,7 +844,7 @@
                   "kind": "shls_link",
                   "title": "Curriculum for Caregivers of Adolescents for web",
                   "language_name": "French",
-                  "url": "https://rescue.box.com/s/05ilbqslbd1d3k0s5soblt6sbl2457ok"
+                  "path": "chefdata/downloaded/FRENCH_Parenting_Curriculum_for_Caregivers of Adolescents_Web.pdf"
                 }
               ]
             },
@@ -808,9 +853,18 @@
               "title": "Extra resources",
               "children": [
                 {
-                  "kind": "shls_link",
-                  "title": "Condensed Version",
-                  "url": "https://rescue.box.com/s/b6pxywupshqt7wlal02rrq55ji1ubnuc"
+                  "title": "Condensed Version_Adolescents",
+                  "children": [
+                    {
+                      "title": "Customized Parenting Skills Curriculum Adolescents IRC Greece - FINAL VERSION.pdf",
+                      "path": "chefdata/downloaded/Condensed Version_Adolescents/Customized Parenting Skills Curriculum Adolescents IRC Greece - FINAL VERSION.pdf"
+                    },
+                    {
+                      "title": "Resources & Handouts for Parenting Curriculum Adolescents IRC Greece.pdf",
+                      "path": "chefdata/downloaded/Condensed Version_Adolescents/Resources & Handouts for Parenting Curriculum Adolescents IRC Greece.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
                 }
               ]
             }

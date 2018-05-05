@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import cgi
+import copy
 import json
 import os
 import requests
@@ -18,7 +19,7 @@ from ricecooker.utils.caching import (CacheForeverHeuristic, FileCache, CacheCon
 #################################################################################
 # Need to get a new Developer Token  before running chef because expires after one hour
 # go to 
-BOXAPI_DEVELOPER_TOKEN = 'bHuTyXztm3nETINEM3CbhssV80HsJO3C'
+BOXAPI_DEVELOPER_TOKEN = '3NbWf5b8uqeGXNRHc3rOqRjB38xveygn'
 
 
 
@@ -35,7 +36,8 @@ SHLS_CHANNEL_DESCRIPTION = ""
 "needed to initiate an SHLS program."
 SHLS_LICENSE_DICT = get_license(licenses.PUBLIC_DOMAIN,
                                 copyright_holder='USAID and International Rescue Committee').as_dict()
-CRAWLING_STAGE_OUTPUT = 'chefdata/trees/shls_web_resource_tree.json'
+TREES_DATA_DIR = 'chefdata/transformed'
+CRAWLING_STAGE_OUTPUT =  'chefdata/trees/shls_web_resource_tree.json'
 SCRAPING_STAGE_OUTPUT = 'chefdata/trees/shls_downloaded_resources.json'
 DOWNLOADED_FILES_DIR = 'chefdata/downloaded'
 TRANSFORMED_FILES_DIR = 'chefdata/transformed'
@@ -167,7 +169,7 @@ def box_download_folder(folder_id, shared_link, destdir=DOWNLOADED_FILES_DIR):
         title=folder_name,
         children=[]
     )
-    folder_path = os.path.join(CHEFDATA_DIR, folder_name)
+    folder_path = os.path.join(destdir, folder_name)
     if not os.path.exists(folder_path):
         os.mkdir(folder_path)
 
@@ -221,7 +223,8 @@ def crawl_shls(start_url):
             continue
         title = get_text(tile.find('header').find('h2'))
         description = tile.find('div', class_='c-tile__content').get_text().strip()
-        subject_subtree = dict(
+        subject_subtree  = dict(
+            kind='shls_subject',
             title=title,
             children = [],
         )
@@ -301,7 +304,7 @@ def crawl_shls(start_url):
                     print('                  extra=', extra_title)
 
     with open(CRAWLING_STAGE_OUTPUT, 'w') as outf:
-        json.dump(web_resource_tree, outf)
+        json.dump(web_resource_tree, outf, indent=2)
     return web_resource_tree
 
 
@@ -311,11 +314,57 @@ def crawl_shls(start_url):
 
 def scrape_shls():
     print('scraping')
-    pass
-    # CRAWLING_STAGE_OUTPUT = 'chefdata/trees/shls_web_resource_tree.json'
-    # SCRAPING_STAGE_OUTPUT = 'chefdata/trees/shls_downloaded_resources.json'
-    # DOWNLOADED_FILES_DIR = 'chefdata/downloaded'
+    with open(CRAWLING_STAGE_OUTPUT, 'r') as inf:
+        web_resource_tree = json.load(inf)
+    
+    downloaded_resources = {}
+    
+    def scrape_subtree(subtree):
 
+        # recurse down th tree
+        oldchildren = subtree['children'] if 'children' in subtree else []
+        subtree['children'] = []
+        for child in oldchildren:
+
+            child_title = child['title'] 
+            child_kind = child['kind']
+            print('processing', child_kind, ' title = ', child_title)
+            
+            
+            # Scrape links
+            if child_kind == 'shls_link':
+                child_url = child['url'] 
+                if  'for print' in child_title:
+                    continue                            # Skip for print links
+                if 'rescue.box.com' in child_url:
+                    shared_link = child_url
+                    shared_type, folder_id, file_id = get_shared_item(shared_link)
+                    
+                    if shared_type == 'file':
+                        path = box_download_file(file_id, shared_link, destdir=DOWNLOADED_FILES_DIR)
+                        del child['url']
+                        child['path'] = path
+                        subtree['children'].append(child)
+                        
+                    elif shared_type == 'folder':
+                        child_subtree = box_download_folder(folder_id, shared_link)
+                        child_subtree['kind'] = 'sls_shared_folder'
+                        subtree['children'].append(child_subtree)
+                else:
+                    print('Skipping', child_title, 'child_url=', child_url)
+
+            else:
+                newchild = scrape_subtree(child)
+                subtree['children'].append(newchild)
+
+        return subtree
+
+
+    downloaded_resources = scrape_subtree(web_resource_tree)
+
+    with open(SCRAPING_STAGE_OUTPUT, 'w') as outf:
+        json.dump(downloaded_resources, outf, indent=2)
+    return downloaded_resources
 
 
 # CHEF
@@ -348,13 +397,17 @@ class SHLSChef(JsonTreeChef):
     #     write_tree_to_json_tree(json_tree_path, ricecooker_json_tree)
 
     def pre_run(self, args, options):
+        data_dirs = [TREES_DATA_DIR, DOWNLOADED_FILES_DIR, TRANSFORMED_FILES_DIR]
+        for dir in data_dirs:
+            if not os.path.exists(dir):
+                os.makedirs(dir, exist_ok=True)
+
         self.crawl(args, options)
         self.scrape(args, options)
         # self.write_ricecooker_tree(args, options)
 
     def run(self, args, options):
-        self.crawl(args, options)
-        self.scrape(args, options)
+        self.pre_run(args, options)
         # self.write_ricecooker_tree(args, options)
 
 
