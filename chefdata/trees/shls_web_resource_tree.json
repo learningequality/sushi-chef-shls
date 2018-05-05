@@ -2,6 +2,11 @@
   "title": "The SHLS web_resource_tree",
   "children": [
     {
+      "kind": "shls_link",
+      "title": "IRC SHLS Toolkit Brochure",
+      "url": "https://rescue.box.com/s/flglg8eywmdyf8twhe5zipo3tqojscf5"
+    },
+    {
       "kind": "shls_subject",
       "title": "SHLS Approach",
       "children": [

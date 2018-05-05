@@ -4,25 +4,27 @@ import cgi
 import copy
 import json
 import os
+import re
 import requests
 import shutil
 import tempfile
+import youtube_dl
 
 
-from le_utils.constants import licenses
+from le_utils.constants import licenses, content_kinds, file_types
 from ricecooker.chefs import JsonTreeChef
 from ricecooker.config import LOGGER
 from ricecooker.classes.nodes import ChannelNode, TopicNode, DocumentNode
 from ricecooker.classes.files import DocumentFile
 from ricecooker.classes.licenses import get_license
 from ricecooker.utils.caching import (CacheForeverHeuristic, FileCache, CacheControlAdapter)
-
+from ricecooker.utils.jsontrees import write_tree_to_json_tree
 
 # BOX TOKEN
 #################################################################################
 # Need to get a new Developer Token  before running chef because expires after one hour
 # go to 
-BOXAPI_DEVELOPER_TOKEN = '3NbWf5b8uqeGXNRHc3rOqRjB38xveygn'
+BOXAPI_DEVELOPER_TOKEN = '1UrRq1wIpOnftbXmftnsRt5Fwn36EGiH'
 
 
 UNOCONV_SERVICE_URL = os.environ.get('UNOCONV_SERVICE_URL', None)
@@ -196,6 +198,7 @@ def box_download_folder(folder_id, shared_link, destdir=DOWNLOADED_FILES_DIR):
             filename = os.path.basename(file_path)
             file_dict = dict(
                 title=filename,
+                kind='shls_link',
                 path=file_path,
                 source_id = 'box_file:' + file_id,
             )
@@ -230,6 +233,21 @@ def crawl_shls(start_url):
         title='The SHLS web_resource_tree',
         children=[],
     )
+
+    # Extract brochure
+    intro_div = page.find('div', class_='ts-large-intro')
+    into_links = intro_div.find_all('a')
+    for link in into_links:
+        link_href = link['href']
+        if 'rescue.box.com' in link_href:
+            doc_dict = dict(
+                kind='shls_link',
+                title='IRC SHLS Toolkit Brochure',
+                url=link_href,
+            )
+            web_resource_tree['children'].append(doc_dict)
+
+    # 6 subject tiles
     for tile in topic_tiles:
         subject_href = tile['href']
         if 'printing-guide' in subject_href:
@@ -326,6 +344,58 @@ def crawl_shls(start_url):
 
 
 
+# VIMEO
+################################################################################
+
+def get_vimeo_info(url):
+    info = None
+    ydl_options = {
+        'outtmpl': '%(id)s.%(ext)s',  # use the video id as filename
+        'writethumbnail': False,
+        'no_warnings': True,
+        'continuedl': False,
+        'restrictfilenames': True,
+        'quiet': False,
+        'format': "bestvideo[height<={maxheight}][ext=mp4]+bestaudio[ext=m4a]/best[height<={maxheight}][ext=mp4]".format(maxheight='720'),
+    }
+    with youtube_dl.YoutubeDL(ydl_options) as ydl:
+        try:
+            ydl.add_default_info_extractors()
+            info = ydl.extract_info(url, download=False)
+        except (youtube_dl.utils.DownloadError,youtube_dl.utils.ContentTooShortError,youtube_dl.utils.ExtractorError) as e:
+            print('error_occured')
+
+    return info
+
+
+
+REAL_TITLE_PAT = re.compile(r'This is \"(?P<title>.*)\" by .*')
+
+def downalod_vimeo_playlist(playlist_url, title):
+    info = get_vimeo_info(playlist_url)
+    playlist_dict = dict(
+        kind='vimeo_playlist',
+        title=title,
+        children=[],
+    )
+    
+    for vid in info['entries']:
+        title = vid['title']   # bad title
+        description = vid['description']
+        m = REAL_TITLE_PAT.search(description)
+        if m:
+            title = m.groupdict()['title']
+        web_url = 'https://vimeo.com/' + vid['id']
+        thumbnail = vid['thumbnails'][0]['url']
+        video_dict = dict(
+            kind='vimeo_video',
+            title=title,
+            web_url=web_url,
+            thumbnail=thumbnail,
+        )
+        playlist_dict['children'].append(video_dict)
+    return playlist_dict
+
 
 # SCRAPING
 ################################################################################
@@ -346,7 +416,7 @@ def scrape_shls():
 
             child_title = child['title'] 
             child_kind = child['kind']
-            print('processing', child_kind, ' title = ', child_title)
+            print('scraping', child_kind, ' title = ', child_title)
             
             
             # Scrape links
@@ -364,13 +434,23 @@ def scrape_shls():
                         path = box_download_file(file_id, shared_link, destdir=DOWNLOADED_FILES_DIR)
                         del child['url']
                         child['path'] = path
+                        child['kind'] = 'shls_link'
                         child['source_id'] = 'box_file:' + file_id
                         subtree['children'].append(child)
 
                     elif shared_type == 'folder':
                         child_subtree = box_download_folder(folder_id, shared_link)
-                        child_subtree['kind'] = 'sls_shared_folder'
+                        child_subtree['kind'] = 'shls_shared_folder'
                         subtree['children'].append(child_subtree)
+
+                elif 'vimeo.com' in child_url:
+                    if child_title.endswith('_ENGLISH'):
+                        lang = 'en'
+                    if child_title.endswith('_ARABIC'):
+                        lang = 'ar'
+                    playlist_subtree = downalod_vimeo_playlist(child_url, child_title)
+                    playlist_subtree['language'] = lang
+                    subtree['children'].append(playlist_subtree)
 
                 else:
                     print('Skipping', child_title, 'child_url=', child_url)
@@ -391,12 +471,15 @@ def scrape_shls():
 
 
 
+
+
 # TRANSFORM
 ################################################################################
     
 def save_response_content(response, filename):
     with open(filename, 'wb') as localfile:
         localfile.write(response.content)
+
 
 
 def convert_file_to_pdf(path, dest_path):
@@ -457,12 +540,13 @@ def transform_local_files():
                     child['path'] = dest_path
                     subtree['children'].append(child)
                 elif path_ext in ['.docx', '.xlsx', '.pptx']:
-                    print('Converring file', path)
                     dest_path = path_pre_ext.replace(DOWNLOADED_FILES_DIR, TRANSFORMED_FILES_DIR) + '.pdf'
-                    dest_dir = os.path.dirname(dest_path)
-                    if not os.path.exists(dest_dir):
-                        os.makedirs(dest_dir, exist_ok=True)
-                    convert_file_to_pdf(path, dest_path)
+                    if not os.path.exists(dest_path):
+                        print('COnverting', path, 'to PDF')
+                        dest_dir = os.path.dirname(dest_path)
+                        if not os.path.exists(dest_dir):
+                            os.makedirs(dest_dir, exist_ok=True)
+                        convert_file_to_pdf(path, dest_path)
                     child['path'] = dest_path
                     subtree['children'].append(child)
 
@@ -477,6 +561,7 @@ def transform_local_files():
         return subtree
 
     transformed_resources = transform_subtree(downloaded_resources)
+    transformed_resources['kind'] = 'transformed_resources_tree'
 
 
     with open(TRANSFORMED_STAGE_OUTPUT, 'w') as outf:
@@ -486,20 +571,88 @@ def transform_local_files():
 
 
 
+# LOAD
+################################################################################
+
+TOPIC_LIKE_KINDS = ["transformed_resources_tree", "shls_subject", "shls_section",
+                    "shls_language", "shls_extras", "vimeo_playlist", "shls_shared_folder"]
+
+def create_ricecooker_json_tree(channel_info):
+    print('Createing riecooker json tree')
+    with open(TRANSFORMED_STAGE_OUTPUT, 'r') as inf:
+        transformed_resources = json.load(inf)
+
+    def ricecookerify_subtree(subtree):
+        kind = subtree['kind']
+        if kind in TOPIC_LIKE_KINDS:
+            topic_node = dict(
+                kind=content_kinds.TOPIC,
+                source_id=subtree.get('source_id', subtree['title']),
+                title=subtree['title'],
+                description=subtree.get('description', None),
+                thumbnail=subtree.get('thumbnail', None),
+                license=SHLS_LICENSE_DICT,
+                language='en',                             # TODO(set correctly)
+                children=[],
+            )
+            for child in subtree['children']:
+                child_node = ricecookerify_subtree(child)
+                topic_node['children'].append(child_node)
+            return topic_node
+
+        elif kind == "vimeo_video":
+            video_node = dict(
+                kind=content_kinds.VIDEO,
+                source_id=subtree['web_url'],
+                language='en',                             # TODO(set correctly)
+                title=subtree['title'],
+                description=subtree.get('description', ''),
+                thumbnail=subtree['thumbnail'],
+                license=SHLS_LICENSE_DICT,
+                files=[],
+            )
+            video_file = dict(
+                file_type=file_types.VIDEO,
+                web_url=subtree['web_url'],
+                language='en',                             # TODO(set correctly)
+            )
+            video_node['files'].append(video_file)
+            return video_node
+
+        elif kind == "shls_link":
+            document_node = dict(
+                kind=content_kinds.DOCUMENT,
+                source_id=subtree['source_id'],
+                language='en',                             # TODO(set correctly)
+                title=subtree['title'],
+                description=subtree.get('description', ''),
+                thumbnail=subtree.get('thumbnail', None),
+                license=SHLS_LICENSE_DICT,
+                files=[],
+            )
+            document_file = dict(
+                file_type=file_types.DOCUMENT,
+                path=subtree['path'],
+                language='en',                             # TODO(set correctly)
+            )
+            document_node['files'].append(document_file)
+            return document_node
+
+        else:
+            print('UNKNOWN kind', kind, subtree)
+
+    ricecooker_json_tree = ricecookerify_subtree(transformed_resources)
+    ricecooker_json_tree.update(channel_info)
+    return ricecooker_json_tree
+
+
+
+
 # CHEF
 ################################################################################
 
 class SHLSChef(JsonTreeChef):
-    channel_info = {
-        'CHANNEL_TITLE': SHLS_CHANNEL_NAME,
-        'CHANNEL_SOURCE_DOMAIN': SHLS_DOMAIN,
-        'CHANNEL_SOURCE_ID': 'toolkit',
-        'CHANNEL_LANGUAGE': 'en',   # TODO: change to `mul`
-        'CHANNEL_THUMBNAIL': 'chefdata/channel_thumbnail.png',
-        'CHANNEL_DESCRIPTION': SHLS_CHANNEL_DESCRIPTION
-    }
     RICECOOKER_JSON_TREE = 'ricecooker_json_tree.json'
-
 
     def crawl(self, args, options):
         print('crawling')
@@ -511,35 +664,30 @@ class SHLSChef(JsonTreeChef):
     def transform(self, args, options):
         transform_local_files()
 
-    # def write_ricecooker_tree(args, options):
-    #     json_tree_path = self.get_json_tree_path()
-    #     write_tree_to_json_tree(json_tree_path, ricecooker_json_tree)
+    def write_json_tree(self, args, options):
+        channel_info = {
+            'title': SHLS_CHANNEL_NAME,
+            'source_domain': SHLS_DOMAIN,
+            'source_id': 'toolkit',
+            'language': 'en',   # TODO: change to `mul`
+            'thumbnail': 'chefdata/channel_thumbnail.png',
+            'description': SHLS_CHANNEL_DESCRIPTION,
+        }
+        ricecooker_json_tree = create_ricecooker_json_tree(channel_info)
+        json_tree_path = self.get_json_tree_path()
+        write_tree_to_json_tree(json_tree_path, ricecooker_json_tree)
+
 
     def pre_run(self, args, options):
         data_dirs = [TREES_DATA_DIR, DOWNLOADED_FILES_DIR, TRANSFORMED_FILES_DIR]
         for dir in data_dirs:
             if not os.path.exists(dir):
                 os.makedirs(dir, exist_ok=True)
-        # self.crawl(args, options)
-        # self.scrape(args, options)
-        self.transform(args, options)
-        # self.write_ricecooker_tree(args, options)
+        #self.crawl(args, options)
+        #self.scrape(args, options)
+        #self.transform(args, options)
+        #self.write_json_tree(args, options)
 
-
-    def run(self, args, options):
-        self.pre_run(args, options)
-        # self.write_ricecooker_tree(args, options)
-
-
-    # def construct_channel(self, **kwargs):
-    #     channel = self.get_channel(**kwargs)
-    #     potato_topic = TopicNode(title="Potatoes!", source_id="<potatos_id>")
-    #     channel.add_child(potato_topic)
-    #     return channel
-    # 
-    # 
-    #     self.write_web_resource_tree_json(web_resource_tree)
-    #     return web_resource_tree
 
 
 
@@ -552,5 +700,3 @@ if __name__ == '__main__':
     """
     simple_chef = SHLSChef()
     simple_chef.main()
-
-

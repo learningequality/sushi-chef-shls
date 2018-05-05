@@ -1,0 +1,3226 @@
+{
+  "kind": "topic",
+  "source_id": "toolkit",
+  "title": "Safe Healing and Learning Spaces Toolkit",
+  "description": "",
+  "thumbnail": "chefdata/channel_thumbnail.png",
+  "license": {
+    "license_id": "Public Domain",
+    "copyright_holder": "USAID and International Rescue Committee",
+    "description": null
+  },
+  "language": "en",
+  "children": [
+    {
+      "kind": "document",
+      "source_id": "box_file:77069098037",
+      "language": "en",
+      "title": "IRC SHLS Toolkit Brochure",
+      "description": "",
+      "thumbnail": null,
+      "license": {
+        "license_id": "Public Domain",
+        "copyright_holder": "USAID and International Rescue Committee",
+        "description": null
+      },
+      "files": [
+        {
+          "file_type": "document",
+          "path": "chefdata/transformed/IRC SHLS Toolkit Brochure_Aug 2016.pdf",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "kind": "topic",
+      "source_id": "SHLS Approach",
+      "title": "SHLS Approach",
+      "description": null,
+      "thumbnail": null,
+      "license": {
+        "license_id": "Public Domain",
+        "copyright_holder": "USAID and International Rescue Committee",
+        "description": null
+      },
+      "language": "en",
+      "children": [
+        {
+          "kind": "topic",
+          "source_id": "Manager\u2019s Guide",
+          "title": "Manager\u2019s Guide",
+          "description": "Comprehensive guidance for managers to set up, monitor & evaluate an SHLS.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Managers_Guide_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92064412914",
+                  "language": "en",
+                  "title": "Manager\u2019s Guide for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Managers_Guide_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Extra resources",
+              "title": "Extra resources",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:8819965266",
+                  "title": "Step 1 - Context analysis and needs assessment",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040762354",
+                      "language": "en",
+                      "title": "Annex 1.1 SHLS Needs Assessment Matrix.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 1 - Context analysis and needs assessment/Annex 1.1 SHLS Needs Assessment Matrix.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040764578",
+                      "language": "en",
+                      "title": "Annex 1.2 SHLS Key Informant Interview.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 1 - Context analysis and needs assessment/Annex 1.2 SHLS Key Informant Interview.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040769714",
+                      "language": "en",
+                      "title": "Annex 1.3 Child Protection Rapid Assessment Toolkit.pdf",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 1 - Context analysis and needs assessment/Annex 1.3 Child Protection Rapid Assessment Toolkit.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040774946",
+                      "language": "en",
+                      "title": "Annex 1.4 Joint Education Needs Assessment Toolkit.pdf",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 1 - Context analysis and needs assessment/Annex 1.4 Joint Education Needs Assessment Toolkit.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:8819965706",
+                  "title": "Step 2 - Developing a work plan",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040837794",
+                      "language": "en",
+                      "title": "Annex 2.1 SHLS Work Plan.xlsx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 2 - Developing a work plan/Annex 2.1 SHLS Work Plan.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:8819965814",
+                  "title": "Step 3 - Developing a budget and procurement plan",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040840714",
+                      "language": "en",
+                      "title": "Annex 3.1 SHLS Budget template.xlsx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 3 - Developing a budget and procurement plan/Annex 3.1 SHLS Budget template.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040843466",
+                      "language": "en",
+                      "title": "Annex 3.2 SHLS Procurement plan template.xlsx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 3 - Developing a budget and procurement plan/Annex 3.2 SHLS Procurement plan template.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:8819965914",
+                  "title": "Step 4 - Location and set-up",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040846718",
+                      "language": "en",
+                      "title": "Annex 4.1 SHLS Structure and Safety Checklist.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.1 SHLS Structure and Safety Checklist.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040853382",
+                      "language": "en",
+                      "title": "Annex 4.2 HI Disability Checklist for Emergency Response.pdf",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.2 HI Disability Checklist for Emergency Response.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040863070",
+                      "language": "en",
+                      "title": "Annex 4.4 Safety Signs and Protocols.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.4 Safety Signs and Protocols.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040866986",
+                      "language": "en",
+                      "title": "Annex 4.5 SHLS Emergency Procedures.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.5 SHLS Emergency Procedures.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040876574",
+                      "language": "en",
+                      "title": "Annex 4.6 WaterAid Menstrual Hygiene Matters_Module1.pdf",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.6 WaterAid Menstrual Hygiene Matters_Module1.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040881322",
+                      "language": "en",
+                      "title": "Annex 4.7 UNICEF Water, Sanitation and Hygiene in schools.pdf",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.7 UNICEF Water, Sanitation and Hygiene in schools.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040885578",
+                      "language": "en",
+                      "title": "Annex 4.8 Suggested SHLS Materials.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.8 Suggested SHLS Materials.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:8819966062",
+                  "title": "Step 5 - Human resources",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040889458",
+                      "language": "en",
+                      "title": "Annex 5.10 Facilitator Training Record.xlsx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.10 Facilitator Training Record.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040892862",
+                      "language": "en",
+                      "title": "Annex 5.11 Facilitator Well-being Survey.xlsx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.11 Facilitator Well-being Survey.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040895602",
+                      "language": "en",
+                      "title": "Annex 5.2 Selection criteria for SHLS staff.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.2 Selection criteria for SHLS staff.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040897830",
+                      "language": "en",
+                      "title": "Annex 5.4 Observation Guide for SEL facilitator.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.4 Observation Guide for SEL facilitator.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040902426",
+                      "language": "en",
+                      "title": "Annex 5.5 SHLS Human Resources Checklist.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.5 SHLS Human Resources Checklist.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040911478",
+                      "language": "en",
+                      "title": "Annex 5.6 - SHLS Code of Conduct.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.6 - SHLS Code of Conduct.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040918530",
+                      "language": "en",
+                      "title": "Annex 5.7 SHLS Code of Conduct Follow-up Tool.xlsx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.7 SHLS Code of Conduct Follow-up Tool.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040924010",
+                      "language": "en",
+                      "title": "Annex 5.8 Terre Des Hommes Child Safeguarding Poster.pdf",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.8 Terre Des Hommes Child Safeguarding Poster.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040926830",
+                      "language": "en",
+                      "title": "Annex 5.9 Training Attendance Sheet.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.9 Training Attendance Sheet.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:8819966162",
+                  "title": "Step 7 - Monitoring and evaluation",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040929878",
+                      "language": "en",
+                      "title": "Annex 7.1 M&E Vocabulary and References.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 7 - Monitoring and evaluation/Annex 7.1 M&E Vocabulary and References.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040933878",
+                      "language": "en",
+                      "title": "Annex 7.13 - SHLS Learning Review Template.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 7 - Monitoring and evaluation/Annex 7.13 - SHLS Learning Review Template.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040936966",
+                      "language": "en",
+                      "title": "Annex 7.2 SHLS Logframe.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 7 - Monitoring and evaluation/Annex 7.2 SHLS Logframe.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040940490",
+                      "language": "en",
+                      "title": "Annex 7.3 SHLS Monitoring & Tracking_Indicator Matrix.xlsx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 7 - Monitoring and evaluation/Annex 7.3 SHLS Monitoring & Tracking_Indicator Matrix.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:8819966298",
+                  "title": "Step 8 - SHLS committees",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040944630",
+                      "language": "en",
+                      "title": "Annex 8.1 Terms of Reference for Parents' Committees.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 8 - SHLS committees/Annex 8.1 Terms of Reference for Parents' Committees.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040947294",
+                      "language": "en",
+                      "title": "Annex 8.2 Terms of Reference for Children's Committees.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 8 - SHLS committees/Annex 8.2 Terms of Reference for Children's Committees.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:8819966390",
+                  "title": "Step 9 - Feedback mechanisms",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040949818",
+                      "language": "en",
+                      "title": "Annex 9.1 Complaints Book.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 9 - Feedback mechanisms/Annex 9.1 Complaints Book.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040954902",
+                      "language": "en",
+                      "title": "Annex 9.4 Allegation Report and Tracking Form.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 9 - Feedback mechanisms/Annex 9.4 Allegation Report and Tracking Form.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:8819965442",
+                  "title": "Step 10 - Developing SHLS referral pathways",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040777170",
+                      "language": "en",
+                      "title": "Annex 10.1 Child Protection Actor Mapping.xlsx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 10 - Developing SHLS referral pathways/Annex 10.1 Child Protection Actor Mapping.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040812530",
+                      "language": "en",
+                      "title": "Annex 10.2 SHLS Referral Tracking Log.xlsx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 10 - Developing SHLS referral pathways/Annex 10.2 SHLS Referral Tracking Log.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:8819965578",
+                  "title": "Step 11 - Starting SHLS Activities",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040819986",
+                      "language": "en",
+                      "title": "Annex 11.1 Child Enrollment Form.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 11 - Starting SHLS Activities/Annex 11.1 Child Enrollment Form.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040823594",
+                      "language": "en",
+                      "title": "Annex 11.2 Caregiver Enrollment Form.docx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 11 - Starting SHLS Activities/Annex 11.2 Caregiver Enrollment Form.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040829142",
+                      "language": "en",
+                      "title": "Annex 11.3 SHLS Visitor Log.xlsx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 11 - Starting SHLS Activities/Annex 11.3 SHLS Visitor Log.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040831918",
+                      "language": "en",
+                      "title": "Annex 11.4 Universal Consent and Release for Use of an Image.pdf",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 11 - Starting SHLS Activities/Annex 11.4 Universal Consent and Release for Use of an Image.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:74040834982",
+                      "language": "en",
+                      "title": "Annex 11.5 Sample Community Attendance Record.xlsx",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Step 11 - Starting SHLS Activities/Annex 11.5 Sample Community Attendance Record.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "Foundational Training \u2013 Trainer\u2019s Manual",
+          "title": "Foundational Training \u2013 Trainer\u2019s Manual",
+          "description": "For managers to train SHLS staff to create a safe, caring and predictable environment.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Foundational_Trainers_Manual_03.08.2016_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92062921389",
+                  "language": "en",
+                  "title": "Foundational Training \u2013 Trainer\u2019s Manual for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Foundational_Trainers_Manual_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "Foundational Training \u2013 Trainee\u2019s Handbook",
+          "title": "Foundational Training \u2013 Trainee\u2019s Handbook",
+          "description": "Handouts and key message for SHLS staff.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Foundational_Trainees_Handbook_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92064011852",
+                  "language": "en",
+                  "title": "Foundational Training \u2013 Trainee\u2019s Handbook for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Foundational_Trainees_Handbook_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "topic",
+      "source_id": "Social-Emotional Learning",
+      "title": "Social-Emotional Learning",
+      "description": null,
+      "thumbnail": null,
+      "license": {
+        "license_id": "Public Domain",
+        "copyright_holder": "USAID and International Rescue Committee",
+        "description": null
+      },
+      "language": "en",
+      "children": [
+        {
+          "kind": "topic",
+          "source_id": "SEL Trainer\u2019s Manual",
+          "title": "SEL Trainer\u2019s Manual",
+          "description": "For managers to train SHLS Leaders and Facilitators to deliver the social-emotional learning intervention.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_SEL_Trainers_Manual_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92064670299",
+                  "language": "en",
+                  "title": "SEL Trainer\u2019s Manual for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_SEL_Trainers_Manual_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "French",
+              "title": "French",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:237517711369",
+                  "language": "en",
+                  "title": "SEL Trainer\u2019s Manual for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/SEL_Trainers_Manual_08.2016-fr-FR.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "SEL Trainee\u2019s Handbook",
+          "title": "SEL Trainee\u2019s Handbook",
+          "description": "Handouts and key messages for SHLS Leaders and Facilitators.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/07/IRCJ4060_Trainees_Handbook_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92067243571",
+                  "language": "en",
+                  "title": "SEL Trainee\u2019s Handbook for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_SEL_Trainees_Handbook_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Greek",
+              "title": "Greek",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:282063719031",
+                  "language": "en",
+                  "title": "SEL Trainee\u2019s Handbook for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_SEL_Trainees_Handbook_08.2016_DESKTOP_PRINT GR translation.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "SEL Lesson Plan Bank",
+          "title": "SEL Lesson Plan Bank",
+          "description": "36 daily and 24 weekly lessons plans to deliver explicit SEL instruction.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/07/IRCJ4060_SEL_Lesson_Plan_Bank_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92062979060",
+                  "language": "en",
+                  "title": "SEL Lesson Plan Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_SEL_Lesson_Plan_Bank_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Arabic",
+              "title": "Arabic",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:183463690781",
+                  "language": "en",
+                  "title": "SEL Lesson Plan Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/SHLS SEL Lesson Bank_Arabic - Iraq-FINAL.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Greek",
+              "title": "Greek",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:282058605446",
+                  "language": "en",
+                  "title": "SEL Lesson Plan Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_SEL_Lesson_Plan_Bank_08.2016_DESKTOP_PRINT.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "SEL Games Bank",
+          "title": "SEL Games Bank",
+          "description": "A bank of 62 games to reinforce SEL competencies.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/07/IRCJ4060_SEL_Games_Bank_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92066111284",
+                  "language": "en",
+                  "title": "SEL Games Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_SEL_Games_Bank_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Arabic",
+              "title": "Arabic",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:183463666260",
+                  "language": "en",
+                  "title": "SEL Games Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/SHLS SEL Games Bank- KRI_Arabic.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "French",
+              "title": "French",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:237517698209",
+                  "language": "en",
+                  "title": "SEL Games Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/SEL_Games_Bank_08.2016-fr-FR.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Greek",
+              "title": "Greek",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:282058812951",
+                  "language": "en",
+                  "title": "SEL Games Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_SEL_Games_Bank_08.2016_DESKTOP_PRINT.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "topic",
+      "source_id": "Math",
+      "title": "Math",
+      "description": null,
+      "thumbnail": null,
+      "license": {
+        "license_id": "Public Domain",
+        "copyright_holder": "USAID and International Rescue Committee",
+        "description": null
+      },
+      "language": "en",
+      "children": [
+        {
+          "kind": "topic",
+          "source_id": "Math Trainer\u2019s Manual",
+          "title": "Math Trainer\u2019s Manual",
+          "description": "For managers to train SHLS Leaders and Facilitators to deliver the math intervention.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Math_Trainers_Manual_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92062851645",
+                  "language": "en",
+                  "title": "Math Trainer\u2019s Manual for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Math_Trainers_Manual_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "French",
+              "title": "French",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:93632417519",
+                  "language": "en",
+                  "title": "Math Trainer\u2019s Manual for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC SHLS_MATH_Manual_French_08.2016_WEB_low.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Arabic",
+              "title": "Arabic",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:183463578047",
+                  "language": "en",
+                  "title": "Math Trainer\u2019s Manual for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/SHLS Math Trainer's Manual _Iraq_Arabic.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "Math Trainee\u2019s Handbook",
+          "title": "Math Trainee\u2019s Handbook",
+          "description": "Handouts and key messages for SHLS Leaders and Facilitators.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Math_Trainees_Handbook_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92064273655",
+                  "language": "en",
+                  "title": "Math Trainee\u2019s Handbook for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Math_Trainees_Handbook_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "French",
+              "title": "French",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:93627431342",
+                  "language": "en",
+                  "title": "Math Trainee\u2019s Handbook for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_MATH_Handbook_08.2016_French_WEB_low.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Arabic",
+              "title": "Arabic",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:183463600252",
+                  "language": "en",
+                  "title": "Math Trainee\u2019s Handbook for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/SHLS Math Trainee Handbook - Iraq-Arabic.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "Math Lesson Plan Bank",
+          "title": "Math Lesson Plan Bank",
+          "description": "60 daily and 24 weekly lessons plans to deliver foundational math instruction.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Math_Lesson_Plan_Bank_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92007689777",
+                  "language": "en",
+                  "title": "Math Lesson Plan Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Math_Lesson_Plan_Bank_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Arabic",
+              "title": "Arabic",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:183463619223",
+                  "language": "en",
+                  "title": "Math Lesson Plan Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/SHLS Math Lesson Bank - Iraq - Arabic.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "topic",
+      "source_id": "Reading",
+      "title": "Reading",
+      "description": null,
+      "thumbnail": null,
+      "license": {
+        "license_id": "Public Domain",
+        "copyright_holder": "USAID and International Rescue Committee",
+        "description": null
+      },
+      "language": "en",
+      "children": [
+        {
+          "kind": "topic",
+          "source_id": "Reading Trainer\u2019s Manual",
+          "title": "Reading Trainer\u2019s Manual",
+          "description": "For managers to train SHLS Leaders and Facilitators to deliver the reading intervention.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Reading_Trainers_Manual_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92067505512",
+                  "language": "en",
+                  "title": "Reading Trainer\u2019s Manual for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Reading_Trainers_Manual_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "French",
+              "title": "French",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:93630984910",
+                  "language": "en",
+                  "title": "Reading Trainer\u2019s Manual for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Reading_Manual_French_08.2016_WEB_low.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Arabic",
+              "title": "Arabic",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:183463661649",
+                  "language": "en",
+                  "title": "Reading Trainer\u2019s Manual for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/SHLS Reading_Arabic-Trainer's Manual-Finalized.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "Reading Trainee\u2019s Handbook",
+          "title": "Reading Trainee\u2019s Handbook",
+          "description": "Handouts and key messages for SHLS Leaders and Facilitators.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Reading_Trainees_Handbook_08.2016_COVER.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92067576635",
+                  "language": "en",
+                  "title": "Reading Trainee\u2019s Handbook for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Reading_Trainees_Handbook_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "French",
+              "title": "French",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:93639508457",
+                  "language": "en",
+                  "title": "Reading Trainee\u2019s Handbook for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Reading_Handbook_French_08.2016_WEB_low.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Arabic",
+              "title": "Arabic",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:183463629444",
+                  "language": "en",
+                  "title": "Reading Trainee\u2019s Handbook for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/SHLS Reading_Arabic-Trainee's Handbook-Finalized.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "Reading Lesson Plan Bank",
+          "title": "Reading Lesson Plan Bank",
+          "description": "60 daily and 24 weekly lessons plans to deliver foundational reading instruction.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Reading_Lesson_Plan_Bank_08.2016_COVER.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92063886527",
+                  "language": "en",
+                  "title": "Reading Lesson Plan Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Reading_Lesson_Plan_Bank_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Arabic",
+              "title": "Arabic",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:183463676049",
+                  "language": "en",
+                  "title": "Reading Lesson Plan Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/SHLS Reading_Arabic-Lesson Plan Bank-Finalized.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "topic",
+      "source_id": "Parenting Skills",
+      "title": "Parenting Skills",
+      "description": null,
+      "thumbnail": null,
+      "license": {
+        "license_id": "Public Domain",
+        "copyright_holder": "USAID and International Rescue Committee",
+        "description": null
+      },
+      "language": "en",
+      "children": [
+        {
+          "kind": "topic",
+          "source_id": "Parenting Skills Trainer\u2019s Manual",
+          "title": "Parenting Skills Trainer\u2019s Manual",
+          "description": "For managers to train SHLS Leaders and Facilitators to deliver the parenting skills intervention.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_PAR_Training_Manual_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92066870109",
+                  "language": "en",
+                  "title": "Parenting Skills Trainer\u2019s Manual for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Parenting_Trainers_Manual_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "French",
+              "title": "French",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:222964783554",
+                  "language": "en",
+                  "title": "Parenting Skills Trainer\u2019s Manual for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRCJ4060_Parenting_Trainers_Manual_082016-fr-FR.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Trainer's Manual PowerPoint Slides and Instructional Videos",
+              "title": "Trainer's Manual PowerPoint Slides and Instructional Videos",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:75636593898",
+                  "language": "en",
+                  "title": "DAY 1",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/1-SHLS PS Training Day 1.ppt.pdf",
+                      "language": "en"
+                    }
+                  ]
+                },
+                {
+                  "kind": "document",
+                  "source_id": "box_file:75636614742",
+                  "language": "en",
+                  "title": "DAY 2",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/2-SHLS PS Training Day 2.ppt.pdf",
+                      "language": "en"
+                    }
+                  ]
+                },
+                {
+                  "kind": "document",
+                  "source_id": "box_file:75636616742",
+                  "language": "en",
+                  "title": "DAY 3",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/3-SHLS PS Training Day 3. ppt.pdf",
+                      "language": "en"
+                    }
+                  ]
+                },
+                {
+                  "kind": "document",
+                  "source_id": "box_file:75636621598",
+                  "language": "en",
+                  "title": "DAY 4",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/4-SHLS PS Training Day 4. ppt.pdf",
+                      "language": "en"
+                    }
+                  ]
+                },
+                {
+                  "kind": "document",
+                  "source_id": "box_file:75636624718",
+                  "language": "en",
+                  "title": "DAY 5",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/5-SHLS PS Training Day 5.ppt.pdf",
+                      "language": "en"
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "source_id": "Parenting Skills (Families Make the Difference) Instructional Videos_ENGLISH",
+                  "title": "Parenting Skills (Families Make the Difference) Instructional Videos_ENGLISH",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222248624",
+                      "language": "en",
+                      "title": "Nurturing and Interactions",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222248624",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222248607",
+                      "language": "en",
+                      "title": "Quality Time",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222248607",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222248599",
+                      "language": "en",
+                      "title": "Communication & Empathy",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222248599",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222248591",
+                      "language": "en",
+                      "title": "Household Rules",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222248591",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222248564",
+                      "language": "en",
+                      "title": "Parent Self-Care",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222248564",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222248576",
+                      "language": "en",
+                      "title": "Earning Privileges and Redirection",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222248576",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222248570",
+                      "language": "en",
+                      "title": "Equality",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222248570",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222248582",
+                      "language": "en",
+                      "title": "Praise & Ignore",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222248582",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222248587",
+                      "language": "en",
+                      "title": "Time-out",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222248587",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222248618",
+                      "language": "en",
+                      "title": "Parenting Skills Group Facilitation Part 1",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222248618",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222248611",
+                      "language": "en",
+                      "title": "Parenting Skills Group Facilitation Part 2",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727436_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222248611",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "source_id": "Parenting Skills (Families Make the Difference) Instructional Videos_ARABIC",
+                  "title": "Parenting Skills (Families Make the Difference) Instructional Videos_ARABIC",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222247861",
+                      "language": "en",
+                      "title": "Time out",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222247861",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222247867",
+                      "language": "en",
+                      "title": "Praise & Ignore",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222247867",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222247872",
+                      "language": "en",
+                      "title": "Earning Privileges & Redirection",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222247872",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222247878",
+                      "language": "en",
+                      "title": "Equality",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222247878",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222247858",
+                      "language": "en",
+                      "title": "Household Rules",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222247858",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222247842",
+                      "language": "en",
+                      "title": "Communication and empathy",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222247842",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222247838",
+                      "language": "en",
+                      "title": "Quality Time",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222247838",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222247834",
+                      "language": "en",
+                      "title": "Parent Self-Care",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222247834",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222247830",
+                      "language": "en",
+                      "title": "Facilitation Pt 2",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222247830",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222247824",
+                      "language": "en",
+                      "title": "Facilitation Pt 1",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222247824",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "video",
+                      "source_id": "https://vimeo.com/222247820",
+                      "language": "en",
+                      "title": "Nurturing and Interactions",
+                      "description": "",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726483_1280.jpg",
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "video",
+                          "web_url": "https://vimeo.com/222247820",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "Curriculum for Caregivers of Children",
+          "title": "Curriculum for Caregivers of Children",
+          "description": "12 sessions for Facilitators to deliver parenting skills to caregivers of children ages 6\u201311.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_PAR_Curriculum_Children_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92067276136",
+                  "language": "en",
+                  "title": "Curriculum for Caregivers of Children for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Parenting_Curriculum_for_Children_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Extra resources",
+              "title": "Extra resources",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:47664910783",
+                  "title": "Condensed Version_Children",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:282067630180",
+                      "language": "en",
+                      "title": "Customized Parenting Skills Curriculum 6-11 IRC Greece IRC - FINAL VERSION.pdf",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Condensed Version_Children/Customized Parenting Skills Curriculum 6-11 IRC Greece IRC - FINAL VERSION.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:282067463136",
+                      "language": "en",
+                      "title": "Resources & Handouts for Parenting Curriculum Children 6-11 IRC Greece.pdf",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Condensed Version_Children/Resources & Handouts for Parenting Curriculum Children 6-11 IRC Greece.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "Curriculum for Caregivers of Adolescents",
+          "title": "Curriculum for Caregivers of Adolescents",
+          "description": "13 sessions for Facilitators to deliver parenting skills to caregivers of adolescents.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_PAR_Curriculum_Adolescents_COVER_WEB.jpg",
+          "license": {
+            "license_id": "Public Domain",
+            "copyright_holder": "USAID and International Rescue Committee",
+            "description": null
+          },
+          "language": "en",
+          "children": [
+            {
+              "kind": "topic",
+              "source_id": "English",
+              "title": "English",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:92063416267",
+                  "language": "en",
+                  "title": "Curriculum for Caregivers of Adolescents for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Parenting_Curriculum_for_Adolescents_08.2016_WEB.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "French",
+              "title": "French",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:282064000326",
+                  "language": "en",
+                  "title": "Curriculum for Caregivers of Adolescents for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/FRENCH_Parenting_Curriculum_for_Caregivers of Adolescents_Web.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Extra resources",
+              "title": "Extra resources",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "topic",
+                  "source_id": "box_folder:47664804187",
+                  "title": "Condensed Version_Adolescents",
+                  "description": null,
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "language": "en",
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:282073193592",
+                      "language": "en",
+                      "title": "Customized Parenting Skills Curriculum Adolescents IRC Greece - FINAL VERSION.pdf",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Condensed Version_Adolescents/Customized Parenting Skills Curriculum Adolescents IRC Greece - FINAL VERSION.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "box_file:282064630792",
+                      "language": "en",
+                      "title": "Resources & Handouts for Parenting Curriculum Adolescents IRC Greece.pdf",
+                      "description": "",
+                      "thumbnail": null,
+                      "license": {
+                        "license_id": "Public Domain",
+                        "copyright_holder": "USAID and International Rescue Committee",
+                        "description": null
+                      },
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "chefdata/transformed/Condensed Version_Adolescents/Resources & Handouts for Parenting Curriculum Adolescents IRC Greece.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source_domain": "shls.rescue.org"
+}
