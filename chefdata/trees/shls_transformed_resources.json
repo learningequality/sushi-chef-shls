@@ -1,0 +1,872 @@
+{
+  "title": "The SHLS web_resource_tree",
+  "children": [
+    {
+      "kind": "shls_subject",
+      "title": "SHLS Approach",
+      "children": [
+        {
+          "kind": "shls_section",
+          "title": "Manager\u2019s Guide",
+          "description": "Comprehensive guidance for managers to set up, monitor & evaluate an SHLS.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Managers_Guide_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Manager\u2019s Guide for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Managers_Guide_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_extras",
+              "title": "Extra resources",
+              "children": [
+                {
+                  "title": "Step 1 - Context analysis and needs assessment",
+                  "children": [
+                    {
+                      "title": "Annex 1.1 SHLS Needs Assessment Matrix.docx",
+                      "path": "chefdata/transformed/Step 1 - Context analysis and needs assessment/Annex 1.1 SHLS Needs Assessment Matrix.pdf"
+                    },
+                    {
+                      "title": "Annex 1.2 SHLS Key Informant Interview.docx",
+                      "path": "chefdata/transformed/Step 1 - Context analysis and needs assessment/Annex 1.2 SHLS Key Informant Interview.pdf"
+                    },
+                    {
+                      "title": "Annex 1.3 Child Protection Rapid Assessment Toolkit.pdf",
+                      "path": "chefdata/transformed/Step 1 - Context analysis and needs assessment/Annex 1.3 Child Protection Rapid Assessment Toolkit.pdf"
+                    },
+                    {
+                      "title": "Annex 1.4 Joint Education Needs Assessment Toolkit.pdf",
+                      "path": "chefdata/transformed/Step 1 - Context analysis and needs assessment/Annex 1.4 Joint Education Needs Assessment Toolkit.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                },
+                {
+                  "title": "Step 2 - Developing a work plan",
+                  "children": [
+                    {
+                      "title": "Annex 2.1 SHLS Work Plan.xlsx",
+                      "path": "chefdata/transformed/Step 2 - Developing a work plan/Annex 2.1 SHLS Work Plan.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                },
+                {
+                  "title": "Step 3 - Developing a budget and procurement plan",
+                  "children": [
+                    {
+                      "title": "Annex 3.1 SHLS Budget template.xlsx",
+                      "path": "chefdata/transformed/Step 3 - Developing a budget and procurement plan/Annex 3.1 SHLS Budget template.pdf"
+                    },
+                    {
+                      "title": "Annex 3.2 SHLS Procurement plan template.xlsx",
+                      "path": "chefdata/transformed/Step 3 - Developing a budget and procurement plan/Annex 3.2 SHLS Procurement plan template.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                },
+                {
+                  "title": "Step 4 - Location and set-up",
+                  "children": [
+                    {
+                      "title": "Annex 4.1 SHLS Structure and Safety Checklist.docx",
+                      "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.1 SHLS Structure and Safety Checklist.pdf"
+                    },
+                    {
+                      "title": "Annex 4.2 HI Disability Checklist for Emergency Response.pdf",
+                      "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.2 HI Disability Checklist for Emergency Response.pdf"
+                    },
+                    {
+                      "title": "Annex 4.4 Safety Signs and Protocols.docx",
+                      "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.4 Safety Signs and Protocols.pdf"
+                    },
+                    {
+                      "title": "Annex 4.5 SHLS Emergency Procedures.docx",
+                      "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.5 SHLS Emergency Procedures.pdf"
+                    },
+                    {
+                      "title": "Annex 4.6 WaterAid Menstrual Hygiene Matters_Module1.pdf",
+                      "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.6 WaterAid Menstrual Hygiene Matters_Module1.pdf"
+                    },
+                    {
+                      "title": "Annex 4.7 UNICEF Water, Sanitation and Hygiene in schools.pdf",
+                      "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.7 UNICEF Water, Sanitation and Hygiene in schools.pdf"
+                    },
+                    {
+                      "title": "Annex 4.8 Suggested SHLS Materials.docx",
+                      "path": "chefdata/transformed/Step 4 - Location and set-up/Annex 4.8 Suggested SHLS Materials.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                },
+                {
+                  "title": "Step 5 - Human resources",
+                  "children": [
+                    {
+                      "title": "Annex 5.10 Facilitator Training Record.xlsx",
+                      "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.10 Facilitator Training Record.pdf"
+                    },
+                    {
+                      "title": "Annex 5.11 Facilitator Well-being Survey.xlsx",
+                      "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.11 Facilitator Well-being Survey.pdf"
+                    },
+                    {
+                      "title": "Annex 5.2 Selection criteria for SHLS staff.docx",
+                      "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.2 Selection criteria for SHLS staff.pdf"
+                    },
+                    {
+                      "title": "Annex 5.4 Observation Guide for SEL facilitator.docx",
+                      "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.4 Observation Guide for SEL facilitator.pdf"
+                    },
+                    {
+                      "title": "Annex 5.5 SHLS Human Resources Checklist.docx",
+                      "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.5 SHLS Human Resources Checklist.pdf"
+                    },
+                    {
+                      "title": "Annex 5.6 - SHLS Code of Conduct.docx",
+                      "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.6 - SHLS Code of Conduct.pdf"
+                    },
+                    {
+                      "title": "Annex 5.7 SHLS Code of Conduct Follow-up Tool.xlsx",
+                      "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.7 SHLS Code of Conduct Follow-up Tool.pdf"
+                    },
+                    {
+                      "title": "Annex 5.8 Terre Des Hommes Child Safeguarding Poster.pdf",
+                      "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.8 Terre Des Hommes Child Safeguarding Poster.pdf"
+                    },
+                    {
+                      "title": "Annex 5.9 Training Attendance Sheet.docx",
+                      "path": "chefdata/transformed/Step 5 - Human resources/Annex 5.9 Training Attendance Sheet.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                },
+                {
+                  "title": "Step 7 - Monitoring and evaluation",
+                  "children": [
+                    {
+                      "title": "Annex 7.1 M&E Vocabulary and References.docx",
+                      "path": "chefdata/transformed/Step 7 - Monitoring and evaluation/Annex 7.1 M&E Vocabulary and References.pdf"
+                    },
+                    {
+                      "title": "Annex 7.13 - SHLS Learning Review Template.docx",
+                      "path": "chefdata/transformed/Step 7 - Monitoring and evaluation/Annex 7.13 - SHLS Learning Review Template.pdf"
+                    },
+                    {
+                      "title": "Annex 7.2 SHLS Logframe.docx",
+                      "path": "chefdata/transformed/Step 7 - Monitoring and evaluation/Annex 7.2 SHLS Logframe.pdf"
+                    },
+                    {
+                      "title": "Annex 7.3 SHLS Monitoring & Tracking_Indicator Matrix.xlsx",
+                      "path": "chefdata/transformed/Step 7 - Monitoring and evaluation/Annex 7.3 SHLS Monitoring & Tracking_Indicator Matrix.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                },
+                {
+                  "title": "Step 8 - SHLS committees",
+                  "children": [
+                    {
+                      "title": "Annex 8.1 Terms of Reference for Parents' Committees.docx",
+                      "path": "chefdata/transformed/Step 8 - SHLS committees/Annex 8.1 Terms of Reference for Parents' Committees.pdf"
+                    },
+                    {
+                      "title": "Annex 8.2 Terms of Reference for Children's Committees.docx",
+                      "path": "chefdata/transformed/Step 8 - SHLS committees/Annex 8.2 Terms of Reference for Children's Committees.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                },
+                {
+                  "title": "Step 9 - Feedback mechanisms",
+                  "children": [
+                    {
+                      "title": "Annex 9.1 Complaints Book.docx",
+                      "path": "chefdata/transformed/Step 9 - Feedback mechanisms/Annex 9.1 Complaints Book.pdf"
+                    },
+                    {
+                      "title": "Annex 9.4 Allegation Report and Tracking Form.docx",
+                      "path": "chefdata/transformed/Step 9 - Feedback mechanisms/Annex 9.4 Allegation Report and Tracking Form.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                },
+                {
+                  "title": "Step 10 - Developing SHLS referral pathways",
+                  "children": [
+                    {
+                      "title": "Annex 10.1 Child Protection Actor Mapping.xlsx",
+                      "path": "chefdata/transformed/Step 10 - Developing SHLS referral pathways/Annex 10.1 Child Protection Actor Mapping.pdf"
+                    },
+                    {
+                      "title": "Annex 10.2 SHLS Referral Tracking Log.xlsx",
+                      "path": "chefdata/transformed/Step 10 - Developing SHLS referral pathways/Annex 10.2 SHLS Referral Tracking Log.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                },
+                {
+                  "title": "Step 11 - Starting SHLS Activities",
+                  "children": [
+                    {
+                      "title": "Annex 11.1 Child Enrollment Form.docx",
+                      "path": "chefdata/transformed/Step 11 - Starting SHLS Activities/Annex 11.1 Child Enrollment Form.pdf"
+                    },
+                    {
+                      "title": "Annex 11.2 Caregiver Enrollment Form.docx",
+                      "path": "chefdata/transformed/Step 11 - Starting SHLS Activities/Annex 11.2 Caregiver Enrollment Form.pdf"
+                    },
+                    {
+                      "title": "Annex 11.3 SHLS Visitor Log.xlsx",
+                      "path": "chefdata/transformed/Step 11 - Starting SHLS Activities/Annex 11.3 SHLS Visitor Log.pdf"
+                    },
+                    {
+                      "title": "Annex 11.4 Universal Consent and Release for Use of an Image.pdf",
+                      "path": "chefdata/transformed/Step 11 - Starting SHLS Activities/Annex 11.4 Universal Consent and Release for Use of an Image.pdf"
+                    },
+                    {
+                      "title": "Annex 11.5 Sample Community Attendance Record.xlsx",
+                      "path": "chefdata/transformed/Step 11 - Starting SHLS Activities/Annex 11.5 Sample Community Attendance Record.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "shls_section",
+          "title": "Foundational Training \u2013 Trainer\u2019s Manual",
+          "description": "For managers to train SHLS staff to create a safe, caring and predictable environment.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Foundational_Trainers_Manual_03.08.2016_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Foundational Training \u2013 Trainer\u2019s Manual for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Foundational_Trainers_Manual_08.2016_WEB.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "shls_section",
+          "title": "Foundational Training \u2013 Trainee\u2019s Handbook",
+          "description": "Handouts and key message for SHLS staff.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Foundational_Trainees_Handbook_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Foundational Training \u2013 Trainee\u2019s Handbook for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Foundational_Trainees_Handbook_08.2016_WEB.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "shls_subject",
+      "title": "Social-Emotional Learning",
+      "children": [
+        {
+          "kind": "shls_section",
+          "title": "SEL Trainer\u2019s Manual",
+          "description": "For managers to train SHLS Leaders and Facilitators to deliver the social-emotional learning intervention.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_SEL_Trainers_Manual_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Trainer\u2019s Manual for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_SEL_Trainers_Manual_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "French",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Trainer\u2019s Manual for web",
+                  "language_name": "French",
+                  "path": "chefdata/transformed/SEL_Trainers_Manual_08.2016-fr-FR.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "shls_section",
+          "title": "SEL Trainee\u2019s Handbook",
+          "description": "Handouts and key messages for SHLS Leaders and Facilitators.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/07/IRCJ4060_Trainees_Handbook_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Trainee\u2019s Handbook for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_SEL_Trainees_Handbook_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Greek",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Trainee\u2019s Handbook for web",
+                  "language_name": "Greek",
+                  "path": "chefdata/transformed/IRC_SHLS_SEL_Trainees_Handbook_08.2016_DESKTOP_PRINT GR translation.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "shls_section",
+          "title": "SEL Lesson Plan Bank",
+          "description": "36 daily and 24 weekly lessons plans to deliver explicit SEL instruction.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/07/IRCJ4060_SEL_Lesson_Plan_Bank_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Lesson Plan Bank for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_SEL_Lesson_Plan_Bank_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Arabic",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Lesson Plan Bank for web",
+                  "language_name": "Arabic",
+                  "path": "chefdata/transformed/SHLS SEL Lesson Bank_Arabic - Iraq-FINAL.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Greek",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Lesson Plan Bank for web",
+                  "language_name": "Greek",
+                  "path": "chefdata/transformed/IRC_SHLS_SEL_Lesson_Plan_Bank_08.2016_DESKTOP_PRINT.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "shls_section",
+          "title": "SEL Games Bank",
+          "description": "A bank of 62 games to reinforce SEL competencies.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/07/IRCJ4060_SEL_Games_Bank_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Games Bank for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_SEL_Games_Bank_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Arabic",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Games Bank for web",
+                  "language_name": "Arabic",
+                  "path": "chefdata/transformed/SHLS SEL Games Bank- KRI_Arabic.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "French",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Games Bank for web",
+                  "language_name": "French",
+                  "path": "chefdata/transformed/SEL_Games_Bank_08.2016-fr-FR.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Greek",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Games Bank for web",
+                  "language_name": "Greek",
+                  "path": "chefdata/transformed/IRC_SHLS_SEL_Games_Bank_08.2016_DESKTOP_PRINT.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "shls_subject",
+      "title": "Math",
+      "children": [
+        {
+          "kind": "shls_section",
+          "title": "Math Trainer\u2019s Manual",
+          "description": "For managers to train SHLS Leaders and Facilitators to deliver the math intervention.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Math_Trainers_Manual_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Math Trainer\u2019s Manual for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Math_Trainers_Manual_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "French",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Math Trainer\u2019s Manual for web",
+                  "language_name": "French",
+                  "path": "chefdata/transformed/IRC SHLS_MATH_Manual_French_08.2016_WEB_low.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Arabic",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Math Trainer\u2019s Manual for web",
+                  "language_name": "Arabic",
+                  "path": "chefdata/transformed/SHLS Math Trainer's Manual _Iraq_Arabic.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "shls_section",
+          "title": "Math Trainee\u2019s Handbook",
+          "description": "Handouts and key messages for SHLS Leaders and Facilitators.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Math_Trainees_Handbook_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Math Trainee\u2019s Handbook for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Math_Trainees_Handbook_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "French",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Math Trainee\u2019s Handbook for web",
+                  "language_name": "French",
+                  "path": "chefdata/transformed/IRC_SHLS_MATH_Handbook_08.2016_French_WEB_low.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Arabic",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Math Trainee\u2019s Handbook for web",
+                  "language_name": "Arabic",
+                  "path": "chefdata/transformed/SHLS Math Trainee Handbook - Iraq-Arabic.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "shls_section",
+          "title": "Math Lesson Plan Bank",
+          "description": "60 daily and 24 weekly lessons plans to deliver foundational math instruction.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Math_Lesson_Plan_Bank_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Math Lesson Plan Bank for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Math_Lesson_Plan_Bank_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Arabic",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Math Lesson Plan Bank for web",
+                  "language_name": "Arabic",
+                  "path": "chefdata/transformed/SHLS Math Lesson Bank - Iraq - Arabic.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "shls_subject",
+      "title": "Reading",
+      "children": [
+        {
+          "kind": "shls_section",
+          "title": "Reading Trainer\u2019s Manual",
+          "description": "For managers to train SHLS Leaders and Facilitators to deliver the reading intervention.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Reading_Trainers_Manual_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Reading Trainer\u2019s Manual for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Reading_Trainers_Manual_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "French",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Reading Trainer\u2019s Manual for web",
+                  "language_name": "French",
+                  "path": "chefdata/transformed/IRC_SHLS_Reading_Manual_French_08.2016_WEB_low.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Arabic",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Reading Trainer\u2019s Manual for web",
+                  "language_name": "Arabic",
+                  "path": "chefdata/transformed/SHLS Reading_Arabic-Trainer's Manual-Finalized.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "shls_section",
+          "title": "Reading Trainee\u2019s Handbook",
+          "description": "Handouts and key messages for SHLS Leaders and Facilitators.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Reading_Trainees_Handbook_08.2016_COVER.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Reading Trainee\u2019s Handbook for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Reading_Trainees_Handbook_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "French",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Reading Trainee\u2019s Handbook for web",
+                  "language_name": "French",
+                  "path": "chefdata/transformed/IRC_SHLS_Reading_Handbook_French_08.2016_WEB_low.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Arabic",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Reading Trainee\u2019s Handbook for web",
+                  "language_name": "Arabic",
+                  "path": "chefdata/transformed/SHLS Reading_Arabic-Trainee's Handbook-Finalized.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "shls_section",
+          "title": "Reading Lesson Plan Bank",
+          "description": "60 daily and 24 weekly lessons plans to deliver foundational reading instruction.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Reading_Lesson_Plan_Bank_08.2016_COVER.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Reading Lesson Plan Bank for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Reading_Lesson_Plan_Bank_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Arabic",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Reading Lesson Plan Bank for web",
+                  "language_name": "Arabic",
+                  "path": "chefdata/transformed/SHLS Reading_Arabic-Lesson Plan Bank-Finalized.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "shls_subject",
+      "title": "Parenting Skills",
+      "children": [
+        {
+          "kind": "shls_section",
+          "title": "Parenting Skills Trainer\u2019s Manual",
+          "description": "For managers to train SHLS Leaders and Facilitators to deliver the parenting skills intervention.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_PAR_Training_Manual_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Parenting Skills Trainer\u2019s Manual for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Parenting_Trainers_Manual_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "French",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Parenting Skills Trainer\u2019s Manual for web",
+                  "language_name": "French",
+                  "path": "chefdata/transformed/IRCJ4060_Parenting_Trainers_Manual_082016-fr-FR.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_extras",
+              "title": "Trainer's Manual PowerPoint Slides and Instructional Videos",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "DAY 1",
+                  "path": "chefdata/transformed/1-SHLS PS Training Day 1.ppt.pdf"
+                },
+                {
+                  "kind": "shls_link",
+                  "title": "DAY 2",
+                  "path": "chefdata/transformed/2-SHLS PS Training Day 2.ppt.pdf"
+                },
+                {
+                  "kind": "shls_link",
+                  "title": "DAY 3",
+                  "path": "chefdata/transformed/3-SHLS PS Training Day 3. ppt.pdf"
+                },
+                {
+                  "kind": "shls_link",
+                  "title": "DAY 4",
+                  "path": "chefdata/transformed/4-SHLS PS Training Day 4. ppt.pdf"
+                },
+                {
+                  "kind": "shls_link",
+                  "title": "DAY 5",
+                  "path": "chefdata/transformed/5-SHLS PS Training Day 5.ppt.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "shls_section",
+          "title": "Curriculum for Caregivers of Children",
+          "description": "12 sessions for Facilitators to deliver parenting skills to caregivers of children ages 6\u201311.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_PAR_Curriculum_Children_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Curriculum for Caregivers of Children for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Parenting_Curriculum_for_Children_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_extras",
+              "title": "Extra resources",
+              "children": [
+                {
+                  "title": "Condensed Version_Children",
+                  "children": [
+                    {
+                      "title": "Customized Parenting Skills Curriculum 6-11 IRC Greece IRC - FINAL VERSION.pdf",
+                      "path": "chefdata/transformed/Condensed Version_Children/Customized Parenting Skills Curriculum 6-11 IRC Greece IRC - FINAL VERSION.pdf"
+                    },
+                    {
+                      "title": "Resources & Handouts for Parenting Curriculum Children 6-11 IRC Greece.pdf",
+                      "path": "chefdata/transformed/Condensed Version_Children/Resources & Handouts for Parenting Curriculum Children 6-11 IRC Greece.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "shls_section",
+          "title": "Curriculum for Caregivers of Adolescents",
+          "description": "13 sessions for Facilitators to deliver parenting skills to caregivers of adolescents.",
+          "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_PAR_Curriculum_Adolescents_COVER_WEB.jpg",
+          "children": [
+            {
+              "kind": "shls_language",
+              "title": "English",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Curriculum for Caregivers of Adolescents for web",
+                  "language_name": "English",
+                  "path": "chefdata/transformed/IRC_SHLS_Parenting_Curriculum_for_Adolescents_08.2016_WEB.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "French",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Curriculum for Caregivers of Adolescents for web",
+                  "language_name": "French",
+                  "path": "chefdata/transformed/FRENCH_Parenting_Curriculum_for_Caregivers of Adolescents_Web.pdf"
+                }
+              ]
+            },
+            {
+              "kind": "shls_extras",
+              "title": "Extra resources",
+              "children": [
+                {
+                  "title": "Condensed Version_Adolescents",
+                  "children": [
+                    {
+                      "title": "Customized Parenting Skills Curriculum Adolescents IRC Greece - FINAL VERSION.pdf",
+                      "path": "chefdata/transformed/Condensed Version_Adolescents/Customized Parenting Skills Curriculum Adolescents IRC Greece - FINAL VERSION.pdf"
+                    },
+                    {
+                      "title": "Resources & Handouts for Parenting Curriculum Adolescents IRC Greece.pdf",
+                      "path": "chefdata/transformed/Condensed Version_Adolescents/Resources & Handouts for Parenting Curriculum Adolescents IRC Greece.pdf"
+                    }
+                  ],
+                  "kind": "sls_shared_folder"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

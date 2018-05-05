@@ -1,10 +1,13 @@
 #!/usr/bin/env python
+from bs4 import BeautifulSoup
 import cgi
 import copy
 import json
 import os
 import requests
-from bs4 import BeautifulSoup
+import shutil
+import tempfile
+
 
 from le_utils.constants import licenses
 from ricecooker.chefs import JsonTreeChef
@@ -21,6 +24,14 @@ from ricecooker.utils.caching import (CacheForeverHeuristic, FileCache, CacheCon
 # go to 
 BOXAPI_DEVELOPER_TOKEN = '3NbWf5b8uqeGXNRHc3rOqRjB38xveygn'
 
+
+UNOCONV_SERVICE_URL = os.environ.get('UNOCONV_SERVICE_URL', None)
+if UNOCONV_SERVICE_URL is None:
+    print('Need to set environment variable UNOCONV_SERVICE_URL to point to the '
+          'unoconv conversion service. Ask in @sushi-chefs channel.')
+    sys.exit(1)
+if UNOCONV_SERVICE_URL.endswith('/'):
+    UNOCONV_SERVICE_URL = UNOCONV_SERVICE_URL.rstrip('/')
 
 
 # CHANNEL INFO
@@ -167,6 +178,7 @@ def box_download_folder(folder_id, shared_link, destdir=DOWNLOADED_FILES_DIR):
     folder_name = folder_data['name']
     folder_dict = dict(
         title=folder_name,
+        source_id='box_folder:' + folder_id,
         children=[]
     )
     folder_path = os.path.join(destdir, folder_name)
@@ -184,7 +196,8 @@ def box_download_folder(folder_id, shared_link, destdir=DOWNLOADED_FILES_DIR):
             filename = os.path.basename(file_path)
             file_dict = dict(
                 title=filename,
-                path=file_path
+                path=file_path,
+                source_id = 'box_file:' + file_id,
             )
             folder_dict['children'].append(file_dict)
         else:
@@ -309,6 +322,11 @@ def crawl_shls(start_url):
 
 
 
+
+
+
+
+
 # SCRAPING
 ################################################################################
 
@@ -335,7 +353,9 @@ def scrape_shls():
             if child_kind == 'shls_link':
                 child_url = child['url'] 
                 if  'for print' in child_title:
-                    continue                            # Skip for print links
+                    continue
+                if  'for web' in child_title:
+                    child_title = child_title.replace(' for web', '')
                 if 'rescue.box.com' in child_url:
                     shared_link = child_url
                     shared_type, folder_id, file_id = get_shared_item(shared_link)
@@ -344,27 +364,126 @@ def scrape_shls():
                         path = box_download_file(file_id, shared_link, destdir=DOWNLOADED_FILES_DIR)
                         del child['url']
                         child['path'] = path
+                        child['source_id'] = 'box_file:' + file_id
                         subtree['children'].append(child)
-                        
+
                     elif shared_type == 'folder':
                         child_subtree = box_download_folder(folder_id, shared_link)
                         child_subtree['kind'] = 'sls_shared_folder'
                         subtree['children'].append(child_subtree)
+
                 else:
                     print('Skipping', child_title, 'child_url=', child_url)
 
+
             else:
+                # recurse for all non-leaf nodes
                 newchild = scrape_subtree(child)
                 subtree['children'].append(newchild)
 
         return subtree
-
 
     downloaded_resources = scrape_subtree(web_resource_tree)
 
     with open(SCRAPING_STAGE_OUTPUT, 'w') as outf:
         json.dump(downloaded_resources, outf, indent=2)
     return downloaded_resources
+
+
+
+# TRANSFORM
+################################################################################
+    
+def save_response_content(response, filename):
+    with open(filename, 'wb') as localfile:
+        localfile.write(response.content)
+
+
+def convert_file_to_pdf(path, dest_path):
+    """
+    Uses unoconv microservice at UNOCONV_SERVICE_URL to convert to `path` to PDF,
+    and save the PDF as `dest_path`.
+    """
+
+    filename_root, path_ext = os.path.splitext(path)
+
+    if path.startswith('//'):
+        path = 'http:' + path
+
+    # Download file in case
+    if path.startswith('http'):
+        response1 = requests.get(path)
+        with tempfile.NamedTemporaryFile(suffix=path_ext) as tmpf:
+            save_response_content(response1, tmpf.name)
+            path = tmpf.name
+        
+    # convert it
+    microwave_url = UNOCONV_SERVICE_URL + '/unoconv/pdf'
+    files = {'file': open(path, 'rb')}
+    response = requests.post(microwave_url, files=files)
+    save_response_content(response, dest_path)
+
+
+
+def transform_local_files():
+    print('transforming downloaded resources')
+    with open(SCRAPING_STAGE_OUTPUT, 'r') as inf:
+        downloaded_resources = json.load(inf)
+
+    transformed_resources = {}
+    
+    def transform_subtree(subtree):
+        """
+        Move files from downloade/ to transformed/ folder, convering file formats
+        in the process (.xlxs, .docx, .pptx) --> .pdf
+        """
+        oldchildren = subtree['children'] if 'children' in subtree else []
+        subtree['children'] = []
+        for child in oldchildren:
+            child_title = child['title'] 
+            print('transforming title = ', child_title)
+            
+            path = child.get('path', None)
+            
+            if path is not None:
+                path_pre_ext, path_ext = os.path.splitext(path)
+                if path_ext == '.pdf':
+                    print('Copying pdf file', path)
+                    dest_path = path.replace(DOWNLOADED_FILES_DIR, TRANSFORMED_FILES_DIR)
+                    dest_dir = os.path.dirname(dest_path)
+                    if not os.path.exists(dest_dir):
+                        os.makedirs(dest_dir, exist_ok=True)
+                    shutil.copy(path, dest_path)
+                    child['path'] = dest_path
+                    subtree['children'].append(child)
+                elif path_ext in ['.docx', '.xlsx', '.pptx']:
+                    print('Converring file', path)
+                    dest_path = path_pre_ext.replace(DOWNLOADED_FILES_DIR, TRANSFORMED_FILES_DIR) + '.pdf'
+                    dest_dir = os.path.dirname(dest_path)
+                    if not os.path.exists(dest_dir):
+                        os.makedirs(dest_dir, exist_ok=True)
+                    convert_file_to_pdf(path, dest_path)
+                    child['path'] = dest_path
+                    subtree['children'].append(child)
+
+                else:
+                    print('Skipping file', path)
+
+            else:
+                # recurse for all non-leaf nodes
+                newchild = transform_subtree(child)
+                subtree['children'].append(newchild)
+
+        return subtree
+
+    transformed_resources = transform_subtree(downloaded_resources)
+
+
+    with open(TRANSFORMED_STAGE_OUTPUT, 'w') as outf:
+        json.dump(transformed_resources, outf, indent=2)
+    return transformed_resources
+
+
 
 
 # CHEF
@@ -390,7 +509,7 @@ class SHLSChef(JsonTreeChef):
         scrape_shls()
 
     def transform(self, args, options):
-        pass
+        transform_local_files()
 
     # def write_ricecooker_tree(args, options):
     #     json_tree_path = self.get_json_tree_path()
@@ -401,10 +520,11 @@ class SHLSChef(JsonTreeChef):
         for dir in data_dirs:
             if not os.path.exists(dir):
                 os.makedirs(dir, exist_ok=True)
-
-        self.crawl(args, options)
-        self.scrape(args, options)
+        # self.crawl(args, options)
+        # self.scrape(args, options)
+        self.transform(args, options)
         # self.write_ricecooker_tree(args, options)
+
 
     def run(self, args, options):
         self.pre_run(args, options)
