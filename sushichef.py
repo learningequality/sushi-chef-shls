@@ -24,7 +24,7 @@ from ricecooker.utils.jsontrees import write_tree_to_json_tree
 #################################################################################
 # Need to get a new Developer Token  before running chef because expires after one hour
 # go to 
-BOXAPI_DEVELOPER_TOKEN = '1UrRq1wIpOnftbXmftnsRt5Fwn36EGiH'
+BOXAPI_DEVELOPER_TOKEN = open('credentials/box_com_access_token.txt').read().strip()
 
 
 UNOCONV_SERVICE_URL = os.environ.get('UNOCONV_SERVICE_URL', None)

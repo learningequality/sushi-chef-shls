@@ -3,6 +3,7 @@ chefdata/transformed
 .idea/
 .ipynb_checkpoints/.webcache/
 __pycache__/
+credentials/
 
 token.txt
 restore/*
