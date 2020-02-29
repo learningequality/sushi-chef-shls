@@ -7,6 +7,7 @@ import os
 import re
 import requests
 import shutil
+import sys
 import tempfile
 import youtube_dl
 
@@ -27,7 +28,7 @@ from ricecooker.utils.jsontrees import write_tree_to_json_tree
 BOXAPI_DEVELOPER_TOKEN = open('credentials/box_com_access_token.txt').read().strip()
 
 
-UNOCONV_SERVICE_URL = os.environ.get('UNOCONV_SERVICE_URL', None)
+UNOCONV_SERVICE_URL = os.environ.get('UNOCONV_SERVICE_URL', 'http://35.185.105.222:8989')
 if UNOCONV_SERVICE_URL is None:
     print('Need to set environment variable UNOCONV_SERVICE_URL to point to the '
           'unoconv conversion service. Ask in @sushi-chefs channel.')
@@ -499,7 +500,7 @@ def convert_file_to_pdf(path, dest_path):
         with tempfile.NamedTemporaryFile(suffix=path_ext) as tmpf:
             save_response_content(response1, tmpf.name)
             path = tmpf.name
-        
+
     # convert it
     microwave_url = UNOCONV_SERVICE_URL + '/unoconv/pdf'
     files = {'file': open(path, 'rb')}
