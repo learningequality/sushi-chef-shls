@@ -684,10 +684,10 @@ class SHLSChef(JsonTreeChef):
         for dir in data_dirs:
             if not os.path.exists(dir):
                 os.makedirs(dir, exist_ok=True)
-        #self.crawl(args, options)
-        #self.scrape(args, options)
-        #self.transform(args, options)
-        #self.write_json_tree(args, options)
+        self.crawl(args, options)
+        self.scrape(args, options)
+        self.transform(args, options)
+        self.write_json_tree(args, options)
 
 
 
