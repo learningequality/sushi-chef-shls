@@ -38,3 +38,19 @@ In the root of the chef repo, inside the activated virtual environment, run:
 
 If everything worked out you'll see a Studio URL of the staged channel appear at
 the end of the chef run.
+
+
+
+
+
+## Dev notebooks
+
+* Run `pip install -r requirements-dev.txt` to install jupyter notebook
+* Run `jupter notebook &` to start the jupyter notebook
+* Explore the sample code in `Download form BOX API.ipynb` and  `Vimeo API.ipynb`,
+  which was used to develop the functions that went into sushichef.py.
+  These notebooks might be useful for debugging if there are problems with
+  the current code.
+
+
+
