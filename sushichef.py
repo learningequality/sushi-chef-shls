@@ -1,25 +1,49 @@
 #!/usr/bin/env python
 from bs4 import BeautifulSoup
 import cgi
-import copy
 import json
+import logging
 import os
 import re
 import requests
 import shutil
 import sys
 import tempfile
+import time
 import youtube_dl
 
 
 from le_utils.constants import licenses, content_kinds, file_types
 from ricecooker.chefs import JsonTreeChef
-from ricecooker.config import LOGGER
-from ricecooker.classes.nodes import ChannelNode, TopicNode, DocumentNode
-from ricecooker.classes.files import DocumentFile
 from ricecooker.classes.licenses import get_license
 from ricecooker.utils.caching import (CacheForeverHeuristic, FileCache, CacheControlAdapter)
 from ricecooker.utils.jsontrees import write_tree_to_json_tree
+
+
+DEBUG = True
+
+
+logger = logging.getLogger(__name__)
+
+
+# create a logging format
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+handler = logging.StreamHandler()
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+
+
+error_log = logging.FileHandler("errors.log")
+error_log.setFormatter(formatter)
+error_log.setLevel(logging.ERROR)
+logger.addHandler(error_log)
+
+
+
+if DEBUG:
+    logger.setLevel(logging.DEBUG)
+
 
 # BOX TOKEN
 #################################################################################
@@ -69,9 +93,17 @@ SESSION.mount('http://' + SHLS_DOMAIN, forever_adapter)
 SESSION.mount('https://' + SHLS_DOMAIN, forever_adapter)
 
 
+# Maps out duplicate source_id entries (titles) by
+KNOWN_DUPLICATES_REMAP = {
+    'Parenting Skills (Families Make the Difference) Instructional Videos_ENGLISH': {
+        'https://vimeo.com/222248576': 'Parenting Skills (Families Make the Difference) - Earning Privileges and Redirection_ENGLISH',
+        'https://vimeo.com/222248624': 'Parenting Skills (Families Make the Difference) - Nurturing and Interactions_ENGLISH',
+    }
+}
 
 
-
+class NotFoundResource(Exception):
+    pass
 
 
 # HELPER METHODS
@@ -89,14 +121,14 @@ def make_request(url, timeout=60, *args, method='GET', **kwargs):
             break
         except (requests.exceptions.ConnectionError, requests.exceptions.ReadTimeout) as e:
             retry_count += 1
-            LOGGER.warning("Connection error ('{msg}'); about to perform retry {count} of {trymax}."
+            logger.warning("Connection error ('{msg}'); about to perform retry {count} of {trymax}."
                            .format(msg=str(e), count=retry_count, trymax=max_retries))
             time.sleep(retry_count * 1)
             if retry_count >= max_retries:
-                LOGGER.error("FAILED TO RETRIEVE:" + str(url))
+                logger.error("FAILED TO RETRIEVE:" + str(url))
                 return None
     if response.status_code != 200:
-        LOGGER.error("ERROR " + str(response.status_code) + ' when getting url=' + url)
+        logger.error("ERROR " + str(response.status_code) + ' when getting url=' + url)
         return None
     return response
 
@@ -110,7 +142,7 @@ def download_page(url, *args, **kwargs):
         return (None, None)
     html = response.text
     page = BeautifulSoup(html, "html.parser")
-    LOGGER.debug('Downloaded page ' + str(url))
+    logger.debug('Downloaded page ' + str(url))
     return (response.url, page)
 
 def get_text(element):
@@ -139,6 +171,10 @@ def get_shared_item(shared_link):
     # GET1: get file id for this shared link
     response1 = requests.get(BOXAPI_SHARED_ITEMS, headers=headers)
     json_data = response1.json()
+    
+    if response1.status_code == 404:
+        return None
+    
     shared_type, shared_id = json_data['type'], json_data['id']
     if shared_type == 'file':
         folder_id = None
@@ -156,15 +192,30 @@ def box_download_file(file_id, shared_link, destdir=DOWNLOADED_FILES_DIR):
         "BoxApi": "shared_link=" + shared_link,
     }
     # GET2: get actual file data
-    response = requests.get(BOXAPI_FILES_CONTENT.format(file_id=file_id), headers=headers)
-    content_disposition = response.headers['Content-Disposition']
-    _, params = cgi.parse_header(response.headers['Content-Disposition'])
-    filename = params['filename']
-    out_path = os.path.join(destdir, filename)
-    with open(out_path, 'wb') as outf:
-        outf.write(response.content)
-        print('Saved file', out_path, 'of size', len(response.content)/1024/1024, 'MB')
-    return out_path
+    box_api_url = BOXAPI_FILES_CONTENT.format(file_id=file_id)
+    response = requests.get(box_api_url, headers=headers, stream=True)
+    
+    if response.status_code == 200:
+        _, params = cgi.parse_header(response.headers['Content-Disposition'])
+        filename = params['filename']
+        out_path = os.path.join(destdir, filename)
+        
+        if DEBUG and os.path.exists(out_path):
+            logger.debug("Skipping {}, already downloaded".format(out_path))
+        
+        else:
+            
+            with open(out_path, 'wb') as outf:
+                shutil.copyfileobj(response.raw, outf)
+            print('Saved file', out_path, 'of size', os.path.getsize(outf)/1024.0/1024.0, 'MB')
+        return out_path
+
+    else:
+        logger.warning("No such download on Box.com: {}".format(box_api_url))
+        return None
+        # raise NotFoundResource("Couldn't find: {}".format(box_api_url))
+    
+    
 
 def box_download_folder(folder_id, shared_link, destdir=DOWNLOADED_FILES_DIR):
     """
@@ -196,6 +247,11 @@ def box_download_folder(folder_id, shared_link, destdir=DOWNLOADED_FILES_DIR):
             filename = entry['name']
             file_id = entry['id']
             file_path = box_download_file(file_id, shared_link, destdir=folder_path)
+            
+            if not file_path:
+                logger.error("Could not get on box.com: file_id={}, shared_link={}".format(file_id, shared_link))
+                continue
+            
             filename = os.path.basename(file_path)
             file_dict = dict(
                 title=filename,
@@ -223,8 +279,11 @@ def box_download_folder(folder_id, shared_link, destdir=DOWNLOADED_FILES_DIR):
 
 
 
-# CRALING
+# CRAWLING
 #################################################################################
+
+# Map of vimeo videos that have been used
+USED_VIMEO_VIDEOS = {}
 
 
 def crawl_shls(start_url):
@@ -372,8 +431,9 @@ def get_vimeo_info(url):
 
 REAL_TITLE_PAT = re.compile(r'This is \"(?P<title>.*)\" by .*')
 
-def downalod_vimeo_playlist(playlist_url, title):
+def download_vimeo_playlist(playlist_url, title):
     info = get_vimeo_info(playlist_url)
+    
     playlist_dict = dict(
         kind='vimeo_playlist',
         title=title,
@@ -386,13 +446,17 @@ def downalod_vimeo_playlist(playlist_url, title):
         m = REAL_TITLE_PAT.search(description)
         if m:
             title = m.groupdict()['title']
-        web_url = 'https://vimeo.com/' + vid['id']
+        
+        # This previously used the key 'id' but since there seems to be
+        # a bug and the key wasn't unique, we now use webpage_url_basename
+        web_url = 'https://vimeo.com/' + vid['webpage_url_basename']
         thumbnail = vid['thumbnails'][0]['url']
         video_dict = dict(
             kind='vimeo_video',
             title=title,
             web_url=web_url,
             thumbnail=thumbnail,
+            playlist_index=vid['playlist_index']
         )
         playlist_dict['children'].append(video_dict)
     return playlist_dict
@@ -410,29 +474,46 @@ def scrape_shls():
     
     def scrape_subtree(subtree):
 
-        # recurse down th tree
+        # recurse down the tree, creating a new subtree
         oldchildren = subtree['children'] if 'children' in subtree else []
         subtree['children'] = []
         for child in oldchildren:
 
-            child_title = child['title'] 
+            child_title = child['title']
+            
             child_kind = child['kind']
             print('scraping', child_kind, ' title = ', child_title)
             
-            
             # Scrape links
             if child_kind == 'shls_link':
-                child_url = child['url'] 
+                child_url = child['url']                 
+
+                # Remap titles that are known to be non-unique
+                if child_title in KNOWN_DUPLICATES_REMAP:
+                    if child_url in KNOWN_DUPLICATES_REMAP[child_title]:
+                        child_title = KNOWN_DUPLICATES_REMAP[child_title][child_url]
+                        child['title'] = child_title
+                
                 if  'for print' in child_title:
                     continue
                 if  'for web' in child_title:
                     child_title = child_title.replace(' for web', '')
                 if 'rescue.box.com' in child_url:
                     shared_link = child_url
-                    shared_type, folder_id, file_id = get_shared_item(shared_link)
+                    shared_item = get_shared_item(shared_link)
+                    if not shared_item:
+                        logger.warning("Not found on Box.com: {}".format(shared_link))
+                        print('Skipping', child_title, 'child_url=', child_url)
+                        continue
+                    shared_type, folder_id, file_id = shared_item
                     
                     if shared_type == 'file':
                         path = box_download_file(file_id, shared_link, destdir=DOWNLOADED_FILES_DIR)
+                        
+                        if not path:
+                            print('Skipping', child_title, 'child_url=', child_url)
+                            continue
+
                         del child['url']
                         child['path'] = path
                         child['kind'] = 'shls_link'
@@ -445,11 +526,19 @@ def scrape_shls():
                         subtree['children'].append(child_subtree)
 
                 elif 'vimeo.com' in child_url:
+                    if child_url not in USED_VIMEO_VIDEOS:
+                        USED_VIMEO_VIDEOS[child_url] = [child_title]
+                    else:
+                        USED_VIMEO_VIDEOS[child_url].append(child_title)
+                        print("Duplicate reference to: {} - from:\n{}\n\n".format(child_url, "\n".join(USED_VIMEO_VIDEOS[child_url])))
+                        print('Skipping', child_title, 'child_url=', child_url)
+                        continue
+                    
                     if child_title.endswith('_ENGLISH'):
                         lang = 'en'
                     if child_title.endswith('_ARABIC'):
                         lang = 'ar'
-                    playlist_subtree = downalod_vimeo_playlist(child_url, child_title)
+                    playlist_subtree = download_vimeo_playlist(child_url, child_title)
                     playlist_subtree['language'] = lang
                     subtree['children'].append(playlist_subtree)
 
@@ -579,7 +668,7 @@ TOPIC_LIKE_KINDS = ["transformed_resources_tree", "shls_subject", "shls_section"
                     "shls_language", "shls_extras", "vimeo_playlist", "shls_shared_folder"]
 
 def create_ricecooker_json_tree(channel_info):
-    print('Createing riecooker json tree')
+    print('Creating ricecooker json tree')
     with open(TRANSFORMED_STAGE_OUTPUT, 'r') as inf:
         transformed_resources = json.load(inf)
 
@@ -653,6 +742,7 @@ def create_ricecooker_json_tree(channel_info):
 ################################################################################
 
 class SHLSChef(JsonTreeChef):
+
     RICECOOKER_JSON_TREE = 'ricecooker_json_tree.json'
 
     def crawl(self, args, options):
