@@ -12,7 +12,6 @@ import tempfile
 import time
 import youtube_dl
 
-
 from le_utils.constants import licenses, content_kinds, file_types
 from ricecooker.chefs import JsonTreeChef
 from ricecooker.classes.licenses import get_license
@@ -21,7 +20,9 @@ from ricecooker.utils.caching import (
     FileCache,
     CacheControlAdapter,
 )
+from ricecooker.config import setup_logging
 from ricecooker.utils.jsontrees import write_tree_to_json_tree
+
 
 
 DEBUG = True
@@ -29,23 +30,8 @@ DEBUG = True
 
 logger = logging.getLogger(__name__)
 
+setup_logging(level=logging.DEBUG if DEBUG else logging.INFO, error_log="errors.log")
 
-# create a logging format
-formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-
-handler = logging.StreamHandler()
-handler.setFormatter(formatter)
-logger.addHandler(handler)
-
-
-error_log = logging.FileHandler("errors.log")
-error_log.setFormatter(formatter)
-error_log.setLevel(logging.ERROR)
-logger.addHandler(error_log)
-
-
-if DEBUG:
-    logger.setLevel(logging.DEBUG)
 
 
 # BOX TOKEN
@@ -59,7 +45,7 @@ UNOCONV_SERVICE_URL = os.environ.get(
     "UNOCONV_SERVICE_URL", "http://35.185.105.222:8989"
 )
 if UNOCONV_SERVICE_URL is None:
-    print(
+    logger.info(
         "Need to set environment variable UNOCONV_SERVICE_URL to point to the "
         "unoconv conversion service. Ask in @sushi-chefs channel."
     )
@@ -99,15 +85,6 @@ SESSION.mount("http://", basic_adapter)
 SESSION.mount("https://", basic_adapter)
 SESSION.mount("http://" + SHLS_DOMAIN, forever_adapter)
 SESSION.mount("https://" + SHLS_DOMAIN, forever_adapter)
-
-
-# Maps out duplicate source_id entries (titles) by
-KNOWN_DUPLICATES_REMAP = {
-    "Parenting Skills (Families Make the Difference) Instructional Videos_ENGLISH": {
-        "https://vimeo.com/222248576": "Parenting Skills (Families Make the Difference) - Earning Privileges and Redirection_ENGLISH",
-        "https://vimeo.com/222248624": "Parenting Skills (Families Make the Difference) - Nurturing and Interactions_ENGLISH",
-    }
-}
 
 
 class NotFoundResource(Exception):
@@ -200,7 +177,7 @@ def get_shared_item(shared_link):
     elif shared_type == "folder":
         folder_id = shared_id
         file_id = None
-    # print(shared_type, folder_id, file_id)
+    # logger.info(shared_type, folder_id, file_id)
     return shared_type, folder_id, file_id
 
 
@@ -225,7 +202,7 @@ def box_download_file(file_id, shared_link, destdir=DOWNLOADED_FILES_DIR):
 
             with open(out_path, "wb") as outf:
                 shutil.copyfileobj(response.raw, outf)
-            print(
+            logger.info(
                 "Saved file",
                 out_path,
                 "of size",
@@ -290,7 +267,7 @@ def box_download_folder(folder_id, shared_link, destdir=DOWNLOADED_FILES_DIR):
             )
             folder_dict["children"].append(file_dict)
         else:
-            print("Skipping entry", entry)
+            logger.info("Skipping entry", entry)
 
     return folder_dict
 
@@ -328,7 +305,7 @@ def crawl_shls(start_url):
         subject_subtree = dict(kind="shls_subject", title=title, children=[],)
         web_resource_tree["children"].append(subject_subtree)
 
-        print("Downloading subject page", title, subject_href)
+        logger.info("Downloading subject page", title, subject_href)
         _, subject_page = download_page(subject_href)
         list_items = subject_page.find_all("li", class_="c-document-list__item")
         for list_item in list_items:
@@ -346,8 +323,8 @@ def crawl_shls(start_url):
                 children=[],
             )
             subject_subtree["children"].append(section_dict)
-            print("       ", section_title)
-            # print('       ', section_description)
+            logger.info("       ", section_title)
+            # logger.info('       ', section_description)
             # Docs for each language
             language_divs = main_div.find_all(
                 "div", class_="c-document-list__downloads"
@@ -358,7 +335,7 @@ def crawl_shls(start_url):
                     kind="shls_language", title=language_name, children=[],
                 )
                 section_dict["children"].append(language_dict)
-                print("         ", language_name)
+                logger.info("         ", language_name)
                 box_links = language_div.find_all("a", class_="c-button")
                 for box_link in box_links:
                     doc_url = box_link["href"]
@@ -374,7 +351,7 @@ def crawl_shls(start_url):
                         url=doc_url,
                     )
                     language_dict["children"].append(doc_dict)
-                    print("             doc=", doc_title)
+                    logger.info("             doc=", doc_title)
 
             # Extra stuff
             extra_heading = main_div.find("h4", recursive=False)
@@ -384,7 +361,7 @@ def crawl_shls(start_url):
                     kind="shls_extras", title=extra_heading_title, children=[],
                 )
                 section_dict["children"].append(extras_dict)
-                print("            ", extra_heading_title)
+                logger.info("            ", extra_heading_title)
                 extra_items = extra_heading.findNext("ul").find_all("li")
                 for extra_item in extra_items:
                     extra_link = extra_item.find("a")
@@ -396,7 +373,7 @@ def crawl_shls(start_url):
                         kind="shls_link", title=extra_title, url=extra_link["href"],
                     )
                     extras_dict["children"].append(doc_dict)
-                    print("                  extra=", extra_title)
+                    logger.info("                  extra=", extra_title)
 
     with open(CRAWLING_STAGE_OUTPUT, "w") as outf:
         json.dump(web_resource_tree, outf, indent=2)
@@ -429,7 +406,7 @@ def get_vimeo_info(url):
             youtube_dl.utils.ContentTooShortError,
             youtube_dl.utils.ExtractorError,
         ) as e:
-            print("error_occured")
+            logger.info("error_occured: {}".format(e))
 
     return info
 
@@ -452,7 +429,17 @@ def download_vimeo_playlist(playlist_url, title):
         # This previously used the key 'id' but since there seems to be
         # a bug and the key wasn't unique, we now use webpage_url_basename
         web_url = "https://vimeo.com/" + vid["webpage_url_basename"]
-        thumbnail = vid["thumbnails"][0]["url"]
+        
+        # NOTE! There are thumbnails in the data from Vimeo, but they
+        # do not work (it repeats the thumbnail of the first item of
+        # each page)
+        ydl_options = {}
+        thumbnail = None
+        with youtube_dl.YoutubeDL(ydl_options) as ydl:
+            info = ydl.extract_info(web_url, download=False)
+            logging.debug(info)
+            thumbnail = info["thumbnails"][0]["url"]
+        
         video_dict = dict(
             kind="vimeo_video",
             title=title,
@@ -469,7 +456,7 @@ def download_vimeo_playlist(playlist_url, title):
 
 
 def scrape_shls():
-    print("scraping")
+    logger.info("scraping")
     with open(CRAWLING_STAGE_OUTPUT, "r") as inf:
         web_resource_tree = json.load(inf)
 
@@ -485,17 +472,11 @@ def scrape_shls():
             child_title = child["title"]
 
             child_kind = child["kind"]
-            print("scraping", child_kind, " title = ", child_title)
+            logger.info("scraping", child_kind, " title = ", child_title)
 
             # Scrape links
             if child_kind == "shls_link":
                 child_url = child["url"]
-
-                # Remap titles that are known to be non-unique
-                if child_title in KNOWN_DUPLICATES_REMAP:
-                    if child_url in KNOWN_DUPLICATES_REMAP[child_title]:
-                        child_title = KNOWN_DUPLICATES_REMAP[child_title][child_url]
-                        child["title"] = child_title
 
                 if "for print" in child_title:
                     continue
@@ -506,7 +487,7 @@ def scrape_shls():
                     shared_item = get_shared_item(shared_link)
                     if not shared_item:
                         logger.warning("Not found on Box.com: {}".format(shared_link))
-                        print("Skipping", child_title, "child_url=", child_url)
+                        logger.info("Skipping", child_title, "child_url=", child_url)
                         continue
                     shared_type, folder_id, file_id = shared_item
 
@@ -516,7 +497,7 @@ def scrape_shls():
                         )
 
                         if not path:
-                            print("Skipping", child_title, "child_url=", child_url)
+                            logger.info("Skipping", child_title, "child_url=", child_url)
                             continue
 
                         del child["url"]
@@ -535,12 +516,12 @@ def scrape_shls():
                         USED_VIMEO_VIDEOS[child_url] = [child_title]
                     else:
                         USED_VIMEO_VIDEOS[child_url].append(child_title)
-                        print(
+                        logger.info(
                             "Duplicate reference to: {} - from:\n{}\n\n".format(
                                 child_url, "\n".join(USED_VIMEO_VIDEOS[child_url])
                             )
                         )
-                        print("Skipping", child_title, "child_url=", child_url)
+                        logger.info("Skipping", child_title, "child_url=", child_url)
                         continue
 
                     if child_title.endswith("_ENGLISH"):
@@ -552,7 +533,7 @@ def scrape_shls():
                     subtree["children"].append(playlist_subtree)
 
                 else:
-                    print("Skipping", child_title, "child_url=", child_url)
+                    logger.info("Skipping", child_title, "child_url=", child_url)
 
             else:
                 # recurse for all non-leaf nodes
@@ -603,7 +584,7 @@ def convert_file_to_pdf(path, dest_path):
 
 
 def transform_local_files():
-    print("transforming downloaded resources")
+    logger.info("transforming downloaded resources")
     with open(SCRAPING_STAGE_OUTPUT, "r") as inf:
         downloaded_resources = json.load(inf)
 
@@ -618,14 +599,14 @@ def transform_local_files():
         subtree["children"] = []
         for child in oldchildren:
             child_title = child["title"]
-            print("transforming title = ", child_title)
+            logger.info("transforming title = ", child_title)
 
             path = child.get("path", None)
 
             if path is not None:
                 path_pre_ext, path_ext = os.path.splitext(path)
                 if path_ext == ".pdf":
-                    print("Copying pdf file", path)
+                    logger.info("Copying pdf file", path)
                     dest_path = path.replace(
                         DOWNLOADED_FILES_DIR, TRANSFORMED_FILES_DIR
                     )
@@ -643,7 +624,7 @@ def transform_local_files():
                         + ".pdf"
                     )
                     if not os.path.exists(dest_path):
-                        print("COnverting", path, "to PDF")
+                        logger.info("COnverting", path, "to PDF")
                         dest_dir = os.path.dirname(dest_path)
                         if not os.path.exists(dest_dir):
                             os.makedirs(dest_dir, exist_ok=True)
@@ -652,7 +633,7 @@ def transform_local_files():
                     subtree["children"].append(child)
 
                 else:
-                    print("Skipping file", path)
+                    logger.info("Skipping file", path)
 
             else:
                 # recurse for all non-leaf nodes
@@ -684,7 +665,7 @@ TOPIC_LIKE_KINDS = [
 
 
 def create_ricecooker_json_tree(channel_info):
-    print("Creating ricecooker json tree")
+    logger.info("Creating ricecooker json tree")
     with open(TRANSFORMED_STAGE_OUTPUT, "r") as inf:
         transformed_resources = json.load(inf)
 
@@ -745,7 +726,7 @@ def create_ricecooker_json_tree(channel_info):
             return document_node
 
         else:
-            print("UNKNOWN kind", kind, subtree)
+            logger.info("UNKNOWN kind", kind, subtree)
 
     ricecooker_json_tree = ricecookerify_subtree(transformed_resources)
     ricecooker_json_tree.update(channel_info)
@@ -761,7 +742,7 @@ class SHLSChef(JsonTreeChef):
     RICECOOKER_JSON_TREE = "ricecooker_json_tree.json"
 
     def crawl(self, args, options):
-        print("crawling")
+        logger.info("crawling")
         crawl_shls(SHLS_START_URL)
 
     def scrape(self, args, options):
