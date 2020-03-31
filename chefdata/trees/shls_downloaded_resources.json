@@ -502,6 +502,19 @@
                   "source_id": "box_file:282058605446"
                 }
               ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "French",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Lesson Plan Bank for web",
+                  "language_name": "French",
+                  "path": "chefdata/downloaded/IRCJ4060_SEL_Lesson_Plan_Bank_08.2016_FR.pdf",
+                  "source_id": "box_file:293785625496"
+                }
+              ]
             }
           ]
         },
@@ -913,67 +926,78 @@
                       "kind": "vimeo_video",
                       "title": "Nurturing and Interactions",
                       "web_url": "https://vimeo.com/222248624",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640727452",
+                      "playlist_index": 1
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Quality Time",
                       "web_url": "https://vimeo.com/222248607",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640727432",
+                      "playlist_index": 2
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Communication & Empathy",
                       "web_url": "https://vimeo.com/222248599",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640727463",
+                      "playlist_index": 3
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Household Rules",
                       "web_url": "https://vimeo.com/222248591",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640727417",
+                      "playlist_index": 4
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Parent Self-Care",
                       "web_url": "https://vimeo.com/222248564",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640727401",
+                      "playlist_index": 5
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Earning Privileges and Redirection",
                       "web_url": "https://vimeo.com/222248576",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640727322",
+                      "playlist_index": 6
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Equality",
                       "web_url": "https://vimeo.com/222248570",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640727367",
+                      "playlist_index": 7
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Praise & Ignore",
                       "web_url": "https://vimeo.com/222248582",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640727435",
+                      "playlist_index": 8
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Time-out",
                       "web_url": "https://vimeo.com/222248587",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640727441",
+                      "playlist_index": 9
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Parenting Skills Group Facilitation Part 1",
                       "web_url": "https://vimeo.com/222248618",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640727474",
+                      "playlist_index": 10
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Parenting Skills Group Facilitation Part 2",
                       "web_url": "https://vimeo.com/222248611",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727436_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640727436",
+                      "playlist_index": 11
                     }
                   ],
                   "language": "en"
@@ -986,67 +1010,78 @@
                       "kind": "vimeo_video",
                       "title": "Time out",
                       "web_url": "https://vimeo.com/222247861",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640726474",
+                      "playlist_index": 1
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Praise & Ignore",
                       "web_url": "https://vimeo.com/222247867",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640726426",
+                      "playlist_index": 2
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Earning Privileges & Redirection",
                       "web_url": "https://vimeo.com/222247872",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640726458",
+                      "playlist_index": 3
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Equality",
                       "web_url": "https://vimeo.com/222247878",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640726469",
+                      "playlist_index": 4
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Household Rules",
                       "web_url": "https://vimeo.com/222247858",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640726464",
+                      "playlist_index": 5
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Communication and empathy",
                       "web_url": "https://vimeo.com/222247842",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640726434",
+                      "playlist_index": 6
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Quality Time",
                       "web_url": "https://vimeo.com/222247838",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640726432",
+                      "playlist_index": 7
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Parent Self-Care",
                       "web_url": "https://vimeo.com/222247834",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640726478",
+                      "playlist_index": 8
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Facilitation Pt 2",
                       "web_url": "https://vimeo.com/222247830",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640726392",
+                      "playlist_index": 9
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Facilitation Pt 1",
                       "web_url": "https://vimeo.com/222247824",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640726419",
+                      "playlist_index": 10
                     },
                     {
                       "kind": "vimeo_video",
                       "title": "Nurturing and Interactions",
                       "web_url": "https://vimeo.com/222247820",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726483_1280.jpg"
+                      "thumbnail": "https://i.vimeocdn.com/video/640726483",
+                      "playlist_index": 11
                     }
                   ],
                   "language": "ar"
@@ -1073,6 +1108,24 @@
                   "source_id": "box_file:92067276136"
                 }
               ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Dari",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Curriculum for Caregivers of Children for web",
+                  "language_name": "Dari",
+                  "path": "chefdata/downloaded/IRC_SHLS_Parenting_Curriculum_for_Children_08.2016_Dari.pdf",
+                  "source_id": "box_file:378491937997"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Pashtu",
+              "children": []
             },
             {
               "kind": "shls_extras",

@@ -46,8 +46,8 @@
       "children": [
         {
           "kind": "topic",
-          "source_id": "Manager\u2019s Guide",
-          "title": "Manager\u2019s Guide",
+          "source_id": "Manager’s Guide",
+          "title": "Manager’s Guide",
           "description": "Comprehensive guidance for managers to set up, monitor & evaluate an SHLS.",
           "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Managers_Guide_COVER_WEB.jpg",
           "license": {
@@ -74,7 +74,7 @@
                   "kind": "document",
                   "source_id": "box_file:92064412914",
                   "language": "en",
-                  "title": "Manager\u2019s Guide for web",
+                  "title": "Manager’s Guide for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1021,8 +1021,8 @@
         },
         {
           "kind": "topic",
-          "source_id": "Foundational Training \u2013 Trainer\u2019s Manual",
-          "title": "Foundational Training \u2013 Trainer\u2019s Manual",
+          "source_id": "Foundational Training – Trainer’s Manual",
+          "title": "Foundational Training – Trainer’s Manual",
           "description": "For managers to train SHLS staff to create a safe, caring and predictable environment.",
           "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Foundational_Trainers_Manual_03.08.2016_COVER_WEB.jpg",
           "license": {
@@ -1049,7 +1049,7 @@
                   "kind": "document",
                   "source_id": "box_file:92062921389",
                   "language": "en",
-                  "title": "Foundational Training \u2013 Trainer\u2019s Manual for web",
+                  "title": "Foundational Training – Trainer’s Manual for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1071,8 +1071,8 @@
         },
         {
           "kind": "topic",
-          "source_id": "Foundational Training \u2013 Trainee\u2019s Handbook",
-          "title": "Foundational Training \u2013 Trainee\u2019s Handbook",
+          "source_id": "Foundational Training – Trainee’s Handbook",
+          "title": "Foundational Training – Trainee’s Handbook",
           "description": "Handouts and key message for SHLS staff.",
           "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Foundational_Trainees_Handbook_COVER_WEB.jpg",
           "license": {
@@ -1099,7 +1099,7 @@
                   "kind": "document",
                   "source_id": "box_file:92064011852",
                   "language": "en",
-                  "title": "Foundational Training \u2013 Trainee\u2019s Handbook for web",
+                  "title": "Foundational Training – Trainee’s Handbook for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1136,8 +1136,8 @@
       "children": [
         {
           "kind": "topic",
-          "source_id": "SEL Trainer\u2019s Manual",
-          "title": "SEL Trainer\u2019s Manual",
+          "source_id": "SEL Trainer’s Manual",
+          "title": "SEL Trainer’s Manual",
           "description": "For managers to train SHLS Leaders and Facilitators to deliver the social-emotional learning intervention.",
           "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_SEL_Trainers_Manual_COVER_WEB.jpg",
           "license": {
@@ -1164,7 +1164,7 @@
                   "kind": "document",
                   "source_id": "box_file:92064670299",
                   "language": "en",
-                  "title": "SEL Trainer\u2019s Manual for web",
+                  "title": "SEL Trainer’s Manual for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1199,7 +1199,7 @@
                   "kind": "document",
                   "source_id": "box_file:237517711369",
                   "language": "en",
-                  "title": "SEL Trainer\u2019s Manual for web",
+                  "title": "SEL Trainer’s Manual for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1221,8 +1221,8 @@
         },
         {
           "kind": "topic",
-          "source_id": "SEL Trainee\u2019s Handbook",
-          "title": "SEL Trainee\u2019s Handbook",
+          "source_id": "SEL Trainee’s Handbook",
+          "title": "SEL Trainee’s Handbook",
           "description": "Handouts and key messages for SHLS Leaders and Facilitators.",
           "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/07/IRCJ4060_Trainees_Handbook_COVER_WEB.jpg",
           "license": {
@@ -1249,7 +1249,7 @@
                   "kind": "document",
                   "source_id": "box_file:92067243571",
                   "language": "en",
-                  "title": "SEL Trainee\u2019s Handbook for web",
+                  "title": "SEL Trainee’s Handbook for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1284,7 +1284,7 @@
                   "kind": "document",
                   "source_id": "box_file:282063719031",
                   "language": "en",
-                  "title": "SEL Trainee\u2019s Handbook for web",
+                  "title": "SEL Trainee’s Handbook for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1416,6 +1416,41 @@
                     {
                       "file_type": "document",
                       "path": "chefdata/transformed/IRC_SHLS_SEL_Lesson_Plan_Bank_08.2016_DESKTOP_PRINT.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "French",
+              "title": "French",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:293785625496",
+                  "language": "en",
+                  "title": "SEL Lesson Plan Bank for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRCJ4060_SEL_Lesson_Plan_Bank_08.2016_FR.pdf",
                       "language": "en"
                     }
                   ]
@@ -1596,8 +1631,8 @@
       "children": [
         {
           "kind": "topic",
-          "source_id": "Math Trainer\u2019s Manual",
-          "title": "Math Trainer\u2019s Manual",
+          "source_id": "Math Trainer’s Manual",
+          "title": "Math Trainer’s Manual",
           "description": "For managers to train SHLS Leaders and Facilitators to deliver the math intervention.",
           "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Math_Trainers_Manual_COVER_WEB.jpg",
           "license": {
@@ -1624,7 +1659,7 @@
                   "kind": "document",
                   "source_id": "box_file:92062851645",
                   "language": "en",
-                  "title": "Math Trainer\u2019s Manual for web",
+                  "title": "Math Trainer’s Manual for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1659,7 +1694,7 @@
                   "kind": "document",
                   "source_id": "box_file:93632417519",
                   "language": "en",
-                  "title": "Math Trainer\u2019s Manual for web",
+                  "title": "Math Trainer’s Manual for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1694,7 +1729,7 @@
                   "kind": "document",
                   "source_id": "box_file:183463578047",
                   "language": "en",
-                  "title": "Math Trainer\u2019s Manual for web",
+                  "title": "Math Trainer’s Manual for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1716,8 +1751,8 @@
         },
         {
           "kind": "topic",
-          "source_id": "Math Trainee\u2019s Handbook",
-          "title": "Math Trainee\u2019s Handbook",
+          "source_id": "Math Trainee’s Handbook",
+          "title": "Math Trainee’s Handbook",
           "description": "Handouts and key messages for SHLS Leaders and Facilitators.",
           "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Math_Trainees_Handbook_COVER_WEB.jpg",
           "license": {
@@ -1744,7 +1779,7 @@
                   "kind": "document",
                   "source_id": "box_file:92064273655",
                   "language": "en",
-                  "title": "Math Trainee\u2019s Handbook for web",
+                  "title": "Math Trainee’s Handbook for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1779,7 +1814,7 @@
                   "kind": "document",
                   "source_id": "box_file:93627431342",
                   "language": "en",
-                  "title": "Math Trainee\u2019s Handbook for web",
+                  "title": "Math Trainee’s Handbook for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1814,7 +1849,7 @@
                   "kind": "document",
                   "source_id": "box_file:183463600252",
                   "language": "en",
-                  "title": "Math Trainee\u2019s Handbook for web",
+                  "title": "Math Trainee’s Handbook for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1936,8 +1971,8 @@
       "children": [
         {
           "kind": "topic",
-          "source_id": "Reading Trainer\u2019s Manual",
-          "title": "Reading Trainer\u2019s Manual",
+          "source_id": "Reading Trainer’s Manual",
+          "title": "Reading Trainer’s Manual",
           "description": "For managers to train SHLS Leaders and Facilitators to deliver the reading intervention.",
           "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Reading_Trainers_Manual_COVER_WEB.jpg",
           "license": {
@@ -1964,7 +1999,7 @@
                   "kind": "document",
                   "source_id": "box_file:92067505512",
                   "language": "en",
-                  "title": "Reading Trainer\u2019s Manual for web",
+                  "title": "Reading Trainer’s Manual for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -1999,7 +2034,7 @@
                   "kind": "document",
                   "source_id": "box_file:93630984910",
                   "language": "en",
-                  "title": "Reading Trainer\u2019s Manual for web",
+                  "title": "Reading Trainer’s Manual for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -2034,7 +2069,7 @@
                   "kind": "document",
                   "source_id": "box_file:183463661649",
                   "language": "en",
-                  "title": "Reading Trainer\u2019s Manual for web",
+                  "title": "Reading Trainer’s Manual for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -2056,8 +2091,8 @@
         },
         {
           "kind": "topic",
-          "source_id": "Reading Trainee\u2019s Handbook",
-          "title": "Reading Trainee\u2019s Handbook",
+          "source_id": "Reading Trainee’s Handbook",
+          "title": "Reading Trainee’s Handbook",
           "description": "Handouts and key messages for SHLS Leaders and Facilitators.",
           "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_Reading_Trainees_Handbook_08.2016_COVER.jpg",
           "license": {
@@ -2084,7 +2119,7 @@
                   "kind": "document",
                   "source_id": "box_file:92067576635",
                   "language": "en",
-                  "title": "Reading Trainee\u2019s Handbook for web",
+                  "title": "Reading Trainee’s Handbook for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -2119,7 +2154,7 @@
                   "kind": "document",
                   "source_id": "box_file:93639508457",
                   "language": "en",
-                  "title": "Reading Trainee\u2019s Handbook for web",
+                  "title": "Reading Trainee’s Handbook for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -2154,7 +2189,7 @@
                   "kind": "document",
                   "source_id": "box_file:183463629444",
                   "language": "en",
-                  "title": "Reading Trainee\u2019s Handbook for web",
+                  "title": "Reading Trainee’s Handbook for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -2276,8 +2311,8 @@
       "children": [
         {
           "kind": "topic",
-          "source_id": "Parenting Skills Trainer\u2019s Manual",
-          "title": "Parenting Skills Trainer\u2019s Manual",
+          "source_id": "Parenting Skills Trainer’s Manual",
+          "title": "Parenting Skills Trainer’s Manual",
           "description": "For managers to train SHLS Leaders and Facilitators to deliver the parenting skills intervention.",
           "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_PAR_Training_Manual_COVER_WEB.jpg",
           "license": {
@@ -2304,7 +2339,7 @@
                   "kind": "document",
                   "source_id": "box_file:92066870109",
                   "language": "en",
-                  "title": "Parenting Skills Trainer\u2019s Manual for web",
+                  "title": "Parenting Skills Trainer’s Manual for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -2339,7 +2374,7 @@
                   "kind": "document",
                   "source_id": "box_file:222964783554",
                   "language": "en",
-                  "title": "Parenting Skills Trainer\u2019s Manual for web",
+                  "title": "Parenting Skills Trainer’s Manual for web",
                   "description": "",
                   "thumbnail": null,
                   "license": {
@@ -2489,7 +2524,7 @@
                       "language": "en",
                       "title": "Nurturing and Interactions",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727452",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2509,7 +2544,7 @@
                       "language": "en",
                       "title": "Quality Time",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727432",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2529,7 +2564,7 @@
                       "language": "en",
                       "title": "Communication & Empathy",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727463",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2549,7 +2584,7 @@
                       "language": "en",
                       "title": "Household Rules",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727417",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2569,7 +2604,7 @@
                       "language": "en",
                       "title": "Parent Self-Care",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727452_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727401",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2589,7 +2624,7 @@
                       "language": "en",
                       "title": "Earning Privileges and Redirection",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727322",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2609,7 +2644,7 @@
                       "language": "en",
                       "title": "Equality",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727367",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2629,7 +2664,7 @@
                       "language": "en",
                       "title": "Praise & Ignore",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727435",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2649,7 +2684,7 @@
                       "language": "en",
                       "title": "Time-out",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727441",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2669,7 +2704,7 @@
                       "language": "en",
                       "title": "Parenting Skills Group Facilitation Part 1",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727322_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727474",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2689,7 +2724,7 @@
                       "language": "en",
                       "title": "Parenting Skills Group Facilitation Part 2",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640727436_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640727436",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2724,7 +2759,7 @@
                       "language": "en",
                       "title": "Time out",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726474",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2744,7 +2779,7 @@
                       "language": "en",
                       "title": "Praise & Ignore",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726426",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2764,7 +2799,7 @@
                       "language": "en",
                       "title": "Earning Privileges & Redirection",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726458",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2784,7 +2819,7 @@
                       "language": "en",
                       "title": "Equality",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726469",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2804,7 +2839,7 @@
                       "language": "en",
                       "title": "Household Rules",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726474_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726464",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2824,7 +2859,7 @@
                       "language": "en",
                       "title": "Communication and empathy",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726434",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2844,7 +2879,7 @@
                       "language": "en",
                       "title": "Quality Time",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726432",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2864,7 +2899,7 @@
                       "language": "en",
                       "title": "Parent Self-Care",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726478",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2884,7 +2919,7 @@
                       "language": "en",
                       "title": "Facilitation Pt 2",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726392",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2904,7 +2939,7 @@
                       "language": "en",
                       "title": "Facilitation Pt 1",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726434_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726419",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2924,7 +2959,7 @@
                       "language": "en",
                       "title": "Nurturing and Interactions",
                       "description": "",
-                      "thumbnail": "https://i.vimeocdn.com/video/640726483_1280.jpg",
+                      "thumbnail": "https://i.vimeocdn.com/video/640726483",
                       "license": {
                         "license_id": "Public Domain",
                         "copyright_holder": "USAID and International Rescue Committee",
@@ -2948,7 +2983,7 @@
           "kind": "topic",
           "source_id": "Curriculum for Caregivers of Children",
           "title": "Curriculum for Caregivers of Children",
-          "description": "12 sessions for Facilitators to deliver parenting skills to caregivers of children ages 6\u201311.",
+          "description": "12 sessions for Facilitators to deliver parenting skills to caregivers of children ages 6–11.",
           "thumbnail": "http://shls.rescue.org/wp-content/uploads/2016/08/IRCJ4060_PAR_Curriculum_Children_COVER_WEB.jpg",
           "license": {
             "license_id": "Public Domain",
@@ -2991,6 +3026,55 @@
                   ]
                 }
               ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Dari",
+              "title": "Dari",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "box_file:378491937997",
+                  "language": "en",
+                  "title": "Curriculum for Caregivers of Children for web",
+                  "description": "",
+                  "thumbnail": null,
+                  "license": {
+                    "license_id": "Public Domain",
+                    "copyright_holder": "USAID and International Rescue Committee",
+                    "description": null
+                  },
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "chefdata/transformed/IRC_SHLS_Parenting_Curriculum_for_Children_08.2016_Dari.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "source_id": "Pashtu",
+              "title": "Pashtu",
+              "description": null,
+              "thumbnail": null,
+              "license": {
+                "license_id": "Public Domain",
+                "copyright_holder": "USAID and International Rescue Committee",
+                "description": null
+              },
+              "language": "en",
+              "children": []
             },
             {
               "kind": "topic",

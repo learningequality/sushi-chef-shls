@@ -70,6 +70,11 @@
                 },
                 {
                   "kind": "shls_link",
+                  "title": "ARABIC Annexes for Step 7",
+                  "url": "https://rescue.box.com/s/qrp79qjp4r6by6om2rb2niaox1y21k2q"
+                },
+                {
+                  "kind": "shls_link",
                   "title": "Annexes for Step 8: SHLS Committees",
                   "url": "https://rescue.box.com/s/fxqw3kbl3762hqkagf0yyncf36au0uhr"
                 },
@@ -271,6 +276,18 @@
                   "title": "SEL Lesson Plan Bank for web",
                   "language_name": "Greek",
                   "url": "https://rescue.box.com/s/m7rhtvhglqlq2f733u1x5akzoyh67h6a"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "French",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "SEL Lesson Plan Bank for web",
+                  "language_name": "French",
+                  "url": "https://rescue.box.com/s/dsmtpy4fu2cs8u5l8ntrud03bnktef11"
                 }
               ]
             }
@@ -756,6 +773,30 @@
                   "title": "Curriculum for Caregivers of Children for print",
                   "language_name": "English",
                   "url": "https://rescue.box.com/s/wrbeaw9beh5tj7zg2t556vxlsl4r3i4d"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Dari",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Curriculum for Caregivers of Children for web",
+                  "language_name": "Dari",
+                  "url": "https://rescue.box.com/s/gr8a20f5tj7i9z7fhqrfj1qygcumocdd"
+                }
+              ]
+            },
+            {
+              "kind": "shls_language",
+              "title": "Pashtu",
+              "children": [
+                {
+                  "kind": "shls_link",
+                  "title": "Curriculum for Caregivers of Children for web",
+                  "language_name": "Pashtu",
+                  "url": "https://rescue.box.com/s/9j1axwjo826dtuj1fhrmd4dmf8fxybpl"
                 }
               ]
             },
