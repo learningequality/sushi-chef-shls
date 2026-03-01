@@ -21,7 +21,7 @@ In order to obtain one:
 2. Navigate to the Tokens tab under your Settings page.
 3. Copy the given authorization token (you will need this token to run the sushi chef script).
 
-### Step 3: Obtaining a box.xom API Token
+### Step 3: Obtaining a box.com API Token
 The PDF files of the SHLS toolkit are hosted on box.com file sharing service.
 Accessing these files programatically requires using the box.com API, which in
 turn requires registering box.com developer, creating an APP, and obtaiing
