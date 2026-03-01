@@ -206,7 +206,7 @@ def box_download_file(file_id, shared_link, destdir=DOWNLOADED_FILES_DIR):
                 "Saved file",
                 out_path,
                 "of size",
-                os.path.getsize(outf) / 1024.0 / 1024.0,
+                os.path.getsize(out_path) / 1024.0 / 1024.0,
                 "MB",
             )
         return out_path
